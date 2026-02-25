@@ -61,7 +61,7 @@ ds <- ds %>%
     raw_dat = ds.temp,
     raw_var = "IT.DSSTDAT",
     tgt_var = "DSSTDTC",
-    raw_fmt = c("m-d-y"),
+    raw_fmt = "m-d-y",
     id_vars = oak_id_vars()
   ) %>%
   assign_datetime(
@@ -105,20 +105,32 @@ ds <- ds %>%
   left_join(visit.map, by = "VISIT")
 
 # Infer the DSSTDY variable from the DM raw data
-# Assumption: IC_DT is the sponsor-defined RFSTDTC
-dm.raw <- pharmaverseraw::dm_raw
+# Assumption: we use the date of the informed consent IC_DT as the
+# sponsor-defined RFSTDTC
+dm.raw <- pharmaverseraw::dm_raw 
+# Create oak IDs to enable merging with ds
 dm.raw <- dm.raw %>%
-  mutate(
-    STUDYID = STUDY,
-    USUBJID = paste(STUDY, PATNUM, sep = "-"),
-    RFSTDTC = IC_DT
+  generate_oak_id_vars(
+    pat_var = "PATNUM",
+    raw_src = "dm.raw"
   )
+# Convert COL_DT to ISO format to enable the use of derive_study_date
+dm.temp <- 
+  assign_datetime(
+    raw_dat = dm.raw,
+    raw_var = "COL_DT",
+    tgt_var = "COL_DT_ISO",
+    raw_fmt = "m/d/y",
+    id_vars = oak_id_vars()
+  )
+# Get the DSSTDY variable out of the COL_DT_ISO
 ds <- ds %>%
   derive_study_day(
-    dm_domain = dm.raw,
+    dm_domain = dm.temp,
     tgdt = "DSSTDTC",
-    refdt = "RFSTDTC",
-    study_day_var = "DSSTDY"
+    refdt = "COL_DT_ISO",
+    study_day_var = "DSSTDY",
+    merge_key = "patient_number"
   )
 
 # Map the rest of SDTM derived variables
