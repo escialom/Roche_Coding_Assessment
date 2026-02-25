@@ -147,12 +147,12 @@ ds <- ds %>%
     rec_vars = c("USUBJID", "DSTERM")
   ) %>%
   select(
-    "STUDYID", "DOMAIN", "USUBJID", "DSSEQ", "AETERM", "AELLT", "AELLTCD", "AEDECOD", "AEPTCD", "AEHLT", "AEHLTCD", "AEHLGT",
-    "AEHLGTCD", "AEBODSYS", "AEBDSYCD", "AESOC", "AESOCCD", "AESEV", "AESER", "AEACN", "AEREL", "AEOUT", "AESCAN", "AESCONG",
-    "AESDISAB", "AESDTH", "AESHOSP", "AESLIFE", "AESOD", "AEDTC", "AESTDTC", "AEENDTC", "AESTDY", "AEENDY"
+    "STUDYID", "DOMAIN", "USUBJID", "DSSEQ", "DSTERM", "DSDECOD", "DSCAT", 
+    "VISIT", "VISITNUM", "DSDTC", "DSSTDTC", "DSSTDY"
   )
 
-
+# Save ds domain
+write.csv(ds, "question_1_sdtm/ds.csv")
 
 
 
