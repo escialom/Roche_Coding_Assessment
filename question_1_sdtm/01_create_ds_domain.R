@@ -12,7 +12,7 @@ ds.temp <- ds.raw
 ds.temp <- ds.temp %>%
   # Creates a temp DSDECOD variable with the value of IT.DSDECOD if OTHERSP is
   # null, and with the value of OTHERSP if any
-  mutate(
+  dplyr::mutate(
     TEMP.DSDECOD = case_when(
       is.na(OTHERSP) ~ IT.DSDECOD,
       TRUE ~ OTHERSP
@@ -20,7 +20,7 @@ ds.temp <- ds.temp %>%
   ) %>%
   # Creates a temp DSTERM variable which is equal to value in OTHERSP if provided
   # TODO: Maybe we don't need that and we map directly
-  mutate(
+  dplyr::mutate(
     TEMP.DSTERM = case_when(
       is.na(OTHERSP) ~ IT.DSTERM,
       TRUE ~ OTHERSP
@@ -28,14 +28,13 @@ ds.temp <- ds.temp %>%
   ) %>%
   # Creates a temp DSCAT variable to be "PROTOCOL MILESTONE", "OTHER EVENT" or
   # "DISPOSITION EVENT"
-  mutate(
+  dplyr::mutate(
     TEMP.DSCAT = case_when(
       IT.DSDECOD == "Randomized" & is.na(OTHERSP)  ~ "PROTOCOL MILESTONE",
       !is.na(OTHERSP) ~ "OTHER EVENT",
       TRUE ~ "DISPOSITION EVENT"
     )
   )
-
 
 # Create oak IDs to enable topic variable mapping
 ds.temp <- ds.temp %>%
@@ -55,7 +54,6 @@ ds <-
     id_vars = oak_id_vars()
   )
 
-
 # Map other variables
 ds <- ds %>% 
   # Map date in ISO 8601 format
@@ -64,6 +62,13 @@ ds <- ds %>%
     raw_var = "IT.DSSTDAT",
     tgt_var = "DSSTDTC",
     raw_fmt = c("m-d-y"),
+    id_vars = oak_id_vars()
+  ) %>%
+  assign_datetime(
+    raw_dat = ds.raw,
+    raw_var = c("DSDTCOL", "DSTMCOL"),
+    tgt_var = "DSDTC",
+    raw_fmt = c("m-d-y", "H:M"),
     id_vars = oak_id_vars()
   ) %>%
   # Map the value of "TEMP.DSDECOD" in "DSDECOD"
@@ -83,6 +88,39 @@ ds <- ds %>%
     ct_spec = study.ct,
     ct_clst = "C74558",
     id_vars = oak_id_vars()
+  )
+
+# Map the SDTM derived variables
+ds <- ds %>%
+  dplyr::mutate(
+    STUDYID = ds.raw$STUDY,
+    DOMAIN = "DS",
+    USUBJID = paste0("01-", ds.raw$PATNUM),
+  ) %>%
+  # DSSEQ ensures each DS record for a subject is uniquely identifiable
+  # Therefore, we use USUBJID and DSTERM as variables for constructing DSSEQ
+  derive_seq(
+    tgt_var = "DSSEQ",
+    rec_vars = c("USUBJID", "DSTERM")
+  ) %>%
+  derive_study_day(
+    sdtm_in = .,
+    dm_domain = dm,
+    tgdt = "AESTDTC",
+    refdt = "RFXSTDTC",
+    study_day_var = "AESTDY"
+  ) %>%
+  derive_study_day(
+    sdtm_in = .,
+    dm_domain = dm,
+    tgdt = "AEENDTC",
+    refdt = "RFXENDTC",
+    study_day_var = "AEENDY"
+  ) %>%
+  select(
+    "STUDYID", "DOMAIN", "USUBJID", "AESEQ", "AETERM", "AELLT", "AELLTCD", "AEDECOD", "AEPTCD", "AEHLT", "AEHLTCD", "AEHLGT",
+    "AEHLGTCD", "AEBODSYS", "AEBDSYCD", "AESOC", "AESOCCD", "AESEV", "AESER", "AEACN", "AEREL", "AEOUT", "AESCAN", "AESCONG",
+    "AESDISAB", "AESDTH", "AESHOSP", "AESLIFE", "AESOD", "AEDTC", "AESTDTC", "AEENDTC", "AESTDY", "AEENDY"
   )
 
 

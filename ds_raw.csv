@@ -1,0 +1,851 @@
+"oak_id","raw_source","patient_number","STUDY","PATNUM","SITENM","INSTANCE","FORM","FORML","IT.DSTERM","IT.DSDECOD","OTHERSP","DSDTCOL","DSTMCOL","IT.DSSTDAT","DEATHDT"
+1,"ds.raw","701-1015","CDISCPILOT01","701-1015","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"01-02-2014",NA,"01-02-2014",NA
+2,"ds.raw","701-1015","CDISCPILOT01","701-1015","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"07-02-2014",NA,"07-02-2014",NA
+3,"ds.raw","701-1015","CDISCPILOT01","701-1015","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","07-02-2014","11:45","07-02-2014",NA
+4,"ds.raw","701-1023","CDISCPILOT01","701-1023","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"08-05-2012",NA,"08-05-2012",NA
+5,"ds.raw","701-1023","CDISCPILOT01","701-1023","CDISCPILOT","Week 4","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"09-02-2012",NA,"09-02-2012",NA
+6,"ds.raw","701-1023","CDISCPILOT01","701-1023","CDISCPILOT","Week 4","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","09-02-2012","10:15","09-02-2012",NA
+7,"ds.raw","701-1023","CDISCPILOT01","701-1023","CDISCPILOT","Retrieval","DISC1","Subject Disposition",NA,NA,"Final Retrieval Visit","02-18-2013",NA,"02-18-2013",NA
+8,"ds.raw","701-1028","CDISCPILOT01","701-1028","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"07-19-2013",NA,"07-19-2013",NA
+9,"ds.raw","701-1028","CDISCPILOT01","701-1028","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"01-14-2014",NA,"01-14-2014",NA
+10,"ds.raw","701-1028","CDISCPILOT01","701-1028","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","01-14-2014","11:10","01-14-2014",NA
+11,"ds.raw","701-1033","CDISCPILOT01","701-1033","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"03-18-2014",NA,"03-18-2014",NA
+12,"ds.raw","701-1033","CDISCPILOT01","701-1033","CDISCPILOT","Week 4","DISC1","Subject Disposition","Sponsor Decision (Study or Patient Discontinued by the Sponsor)","Study Terminated by Sponsor",NA,"04-14-2014",NA,"04-14-2014",NA
+13,"ds.raw","701-1033","CDISCPILOT01","701-1033","CDISCPILOT","Week 4","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","04-14-2014","10:38","04-14-2014",NA
+14,"ds.raw","701-1033","CDISCPILOT01","701-1033","CDISCPILOT","Retrieval","DISC1","Subject Disposition",NA,NA,"Final Retrieval Visit","09-15-2014",NA,"09-15-2014",NA
+15,"ds.raw","701-1034","CDISCPILOT01","701-1034","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"07-01-2014",NA,"07-01-2014",NA
+16,"ds.raw","701-1034","CDISCPILOT01","701-1034","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"12-30-2014",NA,"12-30-2014",NA
+17,"ds.raw","701-1034","CDISCPILOT01","701-1034","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","12-30-2014","09:50","12-30-2014",NA
+18,"ds.raw","701-1047","CDISCPILOT01","701-1047","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"02-12-2013",NA,"02-12-2013",NA
+19,"ds.raw","701-1047","CDISCPILOT01","701-1047","CDISCPILOT","Ambul Ecg Removal","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"03-29-2013",NA,"03-29-2013",NA
+20,"ds.raw","701-1047","CDISCPILOT01","701-1047","CDISCPILOT","Unscheduled 6.1","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","04-07-2013","11:20","04-07-2013",NA
+21,"ds.raw","701-1047","CDISCPILOT01","701-1047","CDISCPILOT","Retrieval","DISC1","Subject Disposition",NA,NA,"Final Retrieval Visit","07-28-2013",NA,"07-28-2013",NA
+22,"ds.raw","701-1057","CDISCPILOT01","701-1057","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"12-20-2013",NA,"12-20-2013",NA
+23,"ds.raw","701-1097","CDISCPILOT01","701-1097","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"01-01-2014",NA,"01-01-2014",NA
+24,"ds.raw","701-1097","CDISCPILOT01","701-1097","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"07-09-2014",NA,"07-09-2014",NA
+25,"ds.raw","701-1097","CDISCPILOT01","701-1097","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","07-09-2014","09:39","07-09-2014",NA
+26,"ds.raw","701-1111","CDISCPILOT01","701-1111","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"09-07-2012",NA,"09-07-2012",NA
+27,"ds.raw","701-1111","CDISCPILOT01","701-1111","CDISCPILOT","Week 2","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"09-17-2012",NA,"09-17-2012",NA
+28,"ds.raw","701-1111","CDISCPILOT01","701-1111","CDISCPILOT","Week 2","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","09-17-2012","11:48","09-17-2012",NA
+29,"ds.raw","701-1111","CDISCPILOT01","701-1111","CDISCPILOT","Retrieval","DISC1","Subject Disposition",NA,NA,"Final Retrieval Visit","02-22-2013",NA,"02-22-2013",NA
+30,"ds.raw","701-1115","CDISCPILOT01","701-1115","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"11-30-2012",NA,"11-30-2012",NA
+31,"ds.raw","701-1115","CDISCPILOT01","701-1115","CDISCPILOT","Week 8","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"01-23-2013",NA,"01-23-2013",NA
+32,"ds.raw","701-1115","CDISCPILOT01","701-1115","CDISCPILOT","Week 8","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","01-23-2013","12:13","01-23-2013",NA
+33,"ds.raw","701-1115","CDISCPILOT01","701-1115","CDISCPILOT","Retrieval","DISC1","Subject Disposition",NA,NA,"Final Retrieval Visit","05-20-2013",NA,"05-20-2013",NA
+34,"ds.raw","701-1118","CDISCPILOT01","701-1118","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"03-12-2014",NA,"03-12-2014",NA
+35,"ds.raw","701-1118","CDISCPILOT01","701-1118","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"09-09-2014",NA,"09-09-2014",NA
+36,"ds.raw","701-1118","CDISCPILOT01","701-1118","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","09-09-2014","13:28","09-09-2014",NA
+37,"ds.raw","701-1130","CDISCPILOT01","701-1130","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"02-15-2014",NA,"02-15-2014",NA
+38,"ds.raw","701-1130","CDISCPILOT01","701-1130","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"08-16-2014",NA,"08-16-2014",NA
+39,"ds.raw","701-1130","CDISCPILOT01","701-1130","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","08-16-2014","13:10","08-16-2014",NA
+40,"ds.raw","701-1133","CDISCPILOT01","701-1133","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"10-28-2012",NA,"10-28-2012",NA
+41,"ds.raw","701-1133","CDISCPILOT01","701-1133","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"04-29-2013",NA,"04-29-2013",NA
+42,"ds.raw","701-1133","CDISCPILOT01","701-1133","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","04-29-2013","10:13","04-29-2013",NA
+43,"ds.raw","701-1145","CDISCPILOT01","701-1145","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"09-05-2013",NA,"09-05-2013",NA
+44,"ds.raw","701-1146","CDISCPILOT01","701-1146","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"05-20-2013",NA,"05-20-2013",NA
+45,"ds.raw","701-1146","CDISCPILOT01","701-1146","CDISCPILOT","Week 6","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"06-30-2013",NA,"06-30-2013",NA
+46,"ds.raw","701-1146","CDISCPILOT01","701-1146","CDISCPILOT","Week 6","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","06-30-2013","11:44","06-30-2013",NA
+47,"ds.raw","701-1148","CDISCPILOT01","701-1148","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"08-23-2013",NA,"08-23-2013",NA
+48,"ds.raw","701-1148","CDISCPILOT01","701-1148","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"02-20-2014",NA,"02-20-2014",NA
+49,"ds.raw","701-1148","CDISCPILOT01","701-1148","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","02-20-2014","15:07","02-20-2014",NA
+50,"ds.raw","701-1153","CDISCPILOT01","701-1153","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"09-23-2013",NA,"09-23-2013",NA
+51,"ds.raw","701-1153","CDISCPILOT01","701-1153","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"04-01-2014",NA,"04-01-2014",NA
+52,"ds.raw","701-1153","CDISCPILOT01","701-1153","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","04-01-2014","14:25","04-01-2014",NA
+53,"ds.raw","701-1162","CDISCPILOT01","701-1162","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"04-18-2013",NA,"04-18-2013",NA
+54,"ds.raw","701-1176","CDISCPILOT01","701-1176","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"09-30-2012",NA,"09-30-2012",NA
+55,"ds.raw","701-1180","CDISCPILOT01","701-1180","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"02-12-2013",NA,"02-12-2013",NA
+56,"ds.raw","701-1180","CDISCPILOT01","701-1180","CDISCPILOT","Week 6","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"03-23-2013",NA,"03-23-2013",NA
+57,"ds.raw","701-1180","CDISCPILOT01","701-1180","CDISCPILOT","Week 6","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","03-23-2013","12:45","03-23-2013",NA
+58,"ds.raw","701-1181","CDISCPILOT01","701-1181","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"12-05-2013",NA,"12-05-2013",NA
+59,"ds.raw","701-1181","CDISCPILOT01","701-1181","CDISCPILOT","Week 2","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"12-12-2013",NA,"12-12-2013",NA
+60,"ds.raw","701-1181","CDISCPILOT01","701-1181","CDISCPILOT","Week 2","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","12-12-2013","12:09","12-12-2013",NA
+61,"ds.raw","701-1181","CDISCPILOT01","701-1181","CDISCPILOT","Retrieval","DISC1","Subject Disposition",NA,NA,"Final Retrieval Visit","05-23-2014",NA,"05-23-2014",NA
+62,"ds.raw","701-1188","CDISCPILOT01","701-1188","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"02-15-2013",NA,"02-15-2013",NA
+63,"ds.raw","701-1188","CDISCPILOT01","701-1188","CDISCPILOT","Week 6","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"03-25-2013",NA,"03-25-2013",NA
+64,"ds.raw","701-1188","CDISCPILOT01","701-1188","CDISCPILOT","Week 6","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","03-25-2013","15:08","03-25-2013",NA
+65,"ds.raw","701-1188","CDISCPILOT01","701-1188","CDISCPILOT","Retrieval","DISC1","Subject Disposition",NA,NA,"Final Retrieval Visit","08-04-2013",NA,"08-04-2013",NA
+66,"ds.raw","701-1192","CDISCPILOT01","701-1192","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"07-22-2012",NA,"07-22-2012",NA
+67,"ds.raw","701-1192","CDISCPILOT01","701-1192","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"01-20-2013",NA,"01-20-2013",NA
+68,"ds.raw","701-1192","CDISCPILOT01","701-1192","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","01-20-2013","15:47","01-20-2013",NA
+69,"ds.raw","701-1203","CDISCPILOT01","701-1203","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"02-02-2013",NA,"02-02-2013",NA
+70,"ds.raw","701-1203","CDISCPILOT01","701-1203","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"08-03-2013",NA,"08-03-2013",NA
+71,"ds.raw","701-1203","CDISCPILOT01","701-1203","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","08-03-2013","10:10","08-03-2013",NA
+72,"ds.raw","701-1211","CDISCPILOT01","701-1211","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"11-15-2012",NA,"11-15-2012","01/14/2013"
+73,"ds.raw","701-1211","CDISCPILOT01","701-1211","CDISCPILOT","Week 8","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","01-08-2013","12:13","01-08-2013","01/14/2013"
+74,"ds.raw","701-1211","CDISCPILOT01","701-1211","CDISCPILOT","Week 12","DISC1","Subject Disposition","Death","Death",NA,"01-14-2013",NA,"01-14-2013","01/14/2013"
+75,"ds.raw","701-1234","CDISCPILOT01","701-1234","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"03-30-2013",NA,"03-30-2013",NA
+76,"ds.raw","701-1234","CDISCPILOT01","701-1234","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"09-22-2013",NA,"09-22-2013",NA
+77,"ds.raw","701-1234","CDISCPILOT01","701-1234","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","09-22-2013","09:25","09-22-2013",NA
+78,"ds.raw","701-1239","CDISCPILOT01","701-1239","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"01-11-2014",NA,"01-11-2014",NA
+79,"ds.raw","701-1239","CDISCPILOT01","701-1239","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"07-11-2014",NA,"07-11-2014",NA
+80,"ds.raw","701-1239","CDISCPILOT01","701-1239","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","07-11-2014","15:40","07-11-2014",NA
+81,"ds.raw","701-1240","CDISCPILOT01","701-1240","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"09-22-2013",NA,"09-22-2013",NA
+82,"ds.raw","701-1275","CDISCPILOT01","701-1275","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"02-07-2014",NA,"02-07-2014",NA
+83,"ds.raw","701-1275","CDISCPILOT01","701-1275","CDISCPILOT","Week 16","DISC1","Subject Disposition","Withdraw Consent","Withdrawal by Subject",NA,"06-14-2014",NA,"06-14-2014",NA
+84,"ds.raw","701-1275","CDISCPILOT01","701-1275","CDISCPILOT","Week 16","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","06-14-2014","12:35","06-14-2014",NA
+85,"ds.raw","701-1287","CDISCPILOT01","701-1287","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"01-25-2014",NA,"01-25-2014",NA
+86,"ds.raw","701-1287","CDISCPILOT01","701-1287","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"07-26-2014",NA,"07-26-2014",NA
+87,"ds.raw","701-1287","CDISCPILOT01","701-1287","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","07-26-2014","13:15","07-26-2014",NA
+88,"ds.raw","701-1294","CDISCPILOT01","701-1294","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"03-24-2013",NA,"03-24-2013",NA
+89,"ds.raw","701-1294","CDISCPILOT01","701-1294","CDISCPILOT","Week 12","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"06-14-2013",NA,"06-14-2013",NA
+90,"ds.raw","701-1294","CDISCPILOT01","701-1294","CDISCPILOT","Week 12","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","06-14-2013","09:47","06-14-2013",NA
+91,"ds.raw","701-1294","CDISCPILOT01","701-1294","CDISCPILOT","Retrieval","DISC1","Subject Disposition",NA,NA,"Final Retrieval Visit","10-08-2013",NA,"10-08-2013",NA
+92,"ds.raw","701-1302","CDISCPILOT01","701-1302","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"08-29-2013",NA,"08-29-2013",NA
+93,"ds.raw","701-1302","CDISCPILOT01","701-1302","CDISCPILOT","Week 12","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"11-05-2013",NA,"11-05-2013",NA
+94,"ds.raw","701-1302","CDISCPILOT01","701-1302","CDISCPILOT","Week 12","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","11-05-2013","13:54","11-05-2013",NA
+95,"ds.raw","701-1302","CDISCPILOT01","701-1302","CDISCPILOT","Retrieval","DISC1","Subject Disposition",NA,NA,"Final Retrieval Visit","02-13-2014",NA,"02-13-2014",NA
+96,"ds.raw","701-1307","CDISCPILOT01","701-1307","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"12-08-2013",NA,"12-08-2013",NA
+97,"ds.raw","701-1317","CDISCPILOT01","701-1317","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"05-22-2014",NA,"05-22-2014",NA
+98,"ds.raw","701-1317","CDISCPILOT01","701-1317","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"11-20-2014",NA,"11-20-2014",NA
+99,"ds.raw","701-1317","CDISCPILOT01","701-1317","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","11-20-2014","11:54","11-20-2014",NA
+100,"ds.raw","701-1324","CDISCPILOT01","701-1324","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"10-02-2012",NA,"10-02-2012",NA
+101,"ds.raw","701-1324","CDISCPILOT01","701-1324","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"04-02-2013",NA,"04-02-2013",NA
+102,"ds.raw","701-1324","CDISCPILOT01","701-1324","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","04-02-2013","11:35","04-02-2013",NA
+103,"ds.raw","701-1341","CDISCPILOT01","701-1341","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"01-05-2013",NA,"01-05-2013",NA
+104,"ds.raw","701-1341","CDISCPILOT01","701-1341","CDISCPILOT","Week 4","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"02-07-2013",NA,"02-07-2013",NA
+105,"ds.raw","701-1341","CDISCPILOT01","701-1341","CDISCPILOT","Week 4","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","02-07-2013","15:16","02-07-2013",NA
+106,"ds.raw","701-1345","CDISCPILOT01","701-1345","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"10-08-2013",NA,"10-08-2013",NA
+107,"ds.raw","701-1345","CDISCPILOT01","701-1345","CDISCPILOT","Week 24","DISC1","Subject Disposition","Sponsor Decision (Study or Patient Discontinued by the Sponsor)","Study Terminated by Sponsor",NA,"03-18-2014",NA,"03-18-2014",NA
+108,"ds.raw","701-1345","CDISCPILOT01","701-1345","CDISCPILOT","Week 24","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","03-18-2014","14:12","03-18-2014",NA
+109,"ds.raw","701-1356","CDISCPILOT01","701-1356","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"04-01-2014",NA,"04-01-2014",NA
+110,"ds.raw","701-1360","CDISCPILOT01","701-1360","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"07-31-2013",NA,"07-31-2013",NA
+111,"ds.raw","701-1360","CDISCPILOT01","701-1360","CDISCPILOT","Week 2","DISC1","Subject Disposition","Pmd Decision Due to Ae's","Physician Decision",NA,"08-14-2013",NA,"08-14-2013",NA
+112,"ds.raw","701-1360","CDISCPILOT01","701-1360","CDISCPILOT","Week 2","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","08-14-2013","15:17","08-14-2013",NA
+113,"ds.raw","701-1360","CDISCPILOT01","701-1360","CDISCPILOT","Retrieval","DISC1","Subject Disposition",NA,NA,"Final Retrieval Visit","02-11-2014",NA,"02-11-2014",NA
+114,"ds.raw","701-1363","CDISCPILOT01","701-1363","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"05-30-2013",NA,"05-30-2013",NA
+115,"ds.raw","701-1363","CDISCPILOT01","701-1363","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"11-27-2013",NA,"11-27-2013",NA
+116,"ds.raw","701-1363","CDISCPILOT01","701-1363","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","11-27-2013","10:00","11-27-2013",NA
+117,"ds.raw","701-1369","CDISCPILOT01","701-1369","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"09-18-2013",NA,"09-18-2013",NA
+118,"ds.raw","701-1383","CDISCPILOT01","701-1383","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"02-04-2013",NA,"02-04-2013",NA
+119,"ds.raw","701-1383","CDISCPILOT01","701-1383","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"08-06-2013",NA,"08-06-2013",NA
+120,"ds.raw","701-1383","CDISCPILOT01","701-1383","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","08-06-2013","12:00","08-06-2013",NA
+121,"ds.raw","701-1386","CDISCPILOT01","701-1386","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"12-28-2013",NA,"12-28-2013",NA
+122,"ds.raw","701-1387","CDISCPILOT01","701-1387","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"03-12-2014",NA,"03-12-2014",NA
+123,"ds.raw","701-1387","CDISCPILOT01","701-1387","CDISCPILOT","Week 2","DISC1","Subject Disposition","Protocol Violation","Protocol Violation",NA,"03-25-2014",NA,"03-25-2014",NA
+124,"ds.raw","701-1387","CDISCPILOT01","701-1387","CDISCPILOT","Week 2","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","03-25-2014","10:40","03-25-2014",NA
+125,"ds.raw","701-1387","CDISCPILOT01","701-1387","CDISCPILOT","Retrieval","DISC1","Subject Disposition",NA,NA,"Final Retrieval Visit","08-27-2014",NA,"08-27-2014",NA
+126,"ds.raw","701-1392","CDISCPILOT01","701-1392","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"10-28-2012",NA,"10-28-2012",NA
+127,"ds.raw","701-1392","CDISCPILOT01","701-1392","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"04-28-2013",NA,"04-28-2013",NA
+128,"ds.raw","701-1392","CDISCPILOT01","701-1392","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","04-28-2013","11:30","04-28-2013",NA
+129,"ds.raw","701-1411","CDISCPILOT01","701-1411","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"11-14-2012",NA,"11-14-2012",NA
+130,"ds.raw","701-1415","CDISCPILOT01","701-1415","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"09-23-2013",NA,"09-23-2013",NA
+131,"ds.raw","701-1415","CDISCPILOT01","701-1415","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"03-24-2014",NA,"03-24-2014",NA
+132,"ds.raw","701-1415","CDISCPILOT01","701-1415","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","03-24-2014","12:34","03-24-2014",NA
+133,"ds.raw","701-1429","CDISCPILOT01","701-1429","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"03-19-2013",NA,"03-19-2013",NA
+134,"ds.raw","701-1429","CDISCPILOT01","701-1429","CDISCPILOT","Week 6","DISC1","Subject Disposition","Withdraw Consent Due to Compliancy Issue","Withdrawal by Subject",NA,"04-30-2013",NA,"04-30-2013",NA
+135,"ds.raw","701-1429","CDISCPILOT01","701-1429","CDISCPILOT","Week 6","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","04-30-2013","12:22","04-30-2013",NA
+136,"ds.raw","701-1440","CDISCPILOT01","701-1440","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"08-08-2013",NA,"08-08-2013",NA
+137,"ds.raw","701-1440","CDISCPILOT01","701-1440","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"02-05-2014",NA,"02-05-2014",NA
+138,"ds.raw","701-1440","CDISCPILOT01","701-1440","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","02-05-2014","11:25","02-05-2014",NA
+139,"ds.raw","701-1442","CDISCPILOT01","701-1442","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"10-26-2013",NA,"10-26-2013",NA
+140,"ds.raw","701-1442","CDISCPILOT01","701-1442","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"04-26-2014",NA,"04-26-2014",NA
+141,"ds.raw","701-1442","CDISCPILOT01","701-1442","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","04-26-2014","10:00","04-26-2014",NA
+142,"ds.raw","701-1444","CDISCPILOT01","701-1444","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"01-05-2013",NA,"01-05-2013",NA
+143,"ds.raw","701-1444","CDISCPILOT01","701-1444","CDISCPILOT","Week 6","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"02-13-2013",NA,"02-13-2013",NA
+144,"ds.raw","701-1444","CDISCPILOT01","701-1444","CDISCPILOT","Week 6","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","02-13-2013","15:53","02-13-2013",NA
+145,"ds.raw","701-1444","CDISCPILOT01","701-1444","CDISCPILOT","Retrieval","DISC1","Subject Disposition",NA,NA,"Final Retrieval Visit","06-20-2013",NA,"06-20-2013",NA
+146,"ds.raw","702-1082","CDISCPILOT01","702-1082","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"07-26-2013",NA,"07-26-2013",NA
+147,"ds.raw","702-1082","CDISCPILOT01","702-1082","CDISCPILOT","Week 12","DISC1","Subject Disposition","Pt Finds Patches""Inconvenient & Itchy;pt Prefers'pills'""","Withdrawal by Subject",NA,"11-17-2013",NA,"11-17-2013",NA
+148,"ds.raw","702-1082","CDISCPILOT01","702-1082","CDISCPILOT","Week 12","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","11-17-2013","12:20","11-17-2013",NA
+149,"ds.raw","703-1042","CDISCPILOT01","703-1042","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"03-02-2013",NA,"03-02-2013",NA
+150,"ds.raw","703-1042","CDISCPILOT01","703-1042","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"08-31-2013",NA,"08-31-2013",NA
+151,"ds.raw","703-1042","CDISCPILOT01","703-1042","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","08-31-2013","11:00","08-31-2013",NA
+152,"ds.raw","703-1076","CDISCPILOT01","703-1076","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"10-25-2013",NA,"10-25-2013",NA
+153,"ds.raw","703-1076","CDISCPILOT01","703-1076","CDISCPILOT","Week 12","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"12-24-2013",NA,"12-24-2013",NA
+154,"ds.raw","703-1076","CDISCPILOT01","703-1076","CDISCPILOT","Week 12","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","12-24-2013","13:05","12-24-2013",NA
+155,"ds.raw","703-1086","CDISCPILOT01","703-1086","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"09-02-2012",NA,"09-02-2012",NA
+156,"ds.raw","703-1086","CDISCPILOT01","703-1086","CDISCPILOT","Week 16","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"12-24-2012",NA,"12-24-2012",NA
+157,"ds.raw","703-1086","CDISCPILOT01","703-1086","CDISCPILOT","Week 16","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","12-24-2012","09:30","12-24-2012",NA
+158,"ds.raw","703-1086","CDISCPILOT01","703-1086","CDISCPILOT","Retrieval","DISC1","Subject Disposition",NA,NA,"Final Retrieval Visit","03-26-2013",NA,"03-26-2013",NA
+159,"ds.raw","703-1096","CDISCPILOT01","703-1096","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"01-25-2013",NA,"01-25-2013",NA
+160,"ds.raw","703-1096","CDISCPILOT01","703-1096","CDISCPILOT","Week 4","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","02-23-2013","17:10","02-23-2013",NA
+161,"ds.raw","703-1096","CDISCPILOT01","703-1096","CDISCPILOT","Week 6","DISC1","Subject Disposition","Unable to Contact Patient (Lost to Follow-Up)","Lost to Follow-Up",NA,"03-29-2013",NA,"03-29-2013",NA
+162,"ds.raw","703-1100","CDISCPILOT01","703-1100","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"03-13-2013",NA,"03-13-2013",NA
+163,"ds.raw","703-1100","CDISCPILOT01","703-1100","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"09-14-2013",NA,"09-14-2013",NA
+164,"ds.raw","703-1100","CDISCPILOT01","703-1100","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","09-14-2013","15:00","09-14-2013",NA
+165,"ds.raw","703-1119","CDISCPILOT01","703-1119","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"02-20-2013",NA,"02-20-2013",NA
+166,"ds.raw","703-1119","CDISCPILOT01","703-1119","CDISCPILOT","Week 16","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"06-13-2013",NA,"06-13-2013",NA
+167,"ds.raw","703-1119","CDISCPILOT01","703-1119","CDISCPILOT","Week 16","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","06-13-2013","12:15","06-13-2013",NA
+168,"ds.raw","703-1119","CDISCPILOT01","703-1119","CDISCPILOT","Retrieval","DISC1","Subject Disposition",NA,NA,"Final Retrieval Visit","08-24-2013",NA,"08-24-2013",NA
+169,"ds.raw","703-1175","CDISCPILOT01","703-1175","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"12-20-2013",NA,"12-20-2013",NA
+170,"ds.raw","703-1175","CDISCPILOT01","703-1175","CDISCPILOT","Week 2","DISC1","Subject Disposition","Protocol Entry Criteria not Met","Protocol Violation",NA,"12-31-2013",NA,"12-31-2013",NA
+171,"ds.raw","703-1175","CDISCPILOT01","703-1175","CDISCPILOT","Week 2","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","12-31-2013","13:15","12-31-2013",NA
+172,"ds.raw","703-1182","CDISCPILOT01","703-1182","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"10-17-2013",NA,"10-17-2013",NA
+173,"ds.raw","703-1182","CDISCPILOT01","703-1182","CDISCPILOT","Week 8","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"12-12-2013",NA,"12-12-2013",NA
+174,"ds.raw","703-1182","CDISCPILOT01","703-1182","CDISCPILOT","Week 8","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","12-12-2013","13:10","12-12-2013",NA
+175,"ds.raw","703-1197","CDISCPILOT01","703-1197","CDISCPILOT","Unscheduled 1.1","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","06-01-2013","10:00","06-01-2013",NA
+176,"ds.raw","703-1197","CDISCPILOT01","703-1197","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"06-16-2013",NA,"06-16-2013",NA
+177,"ds.raw","703-1197","CDISCPILOT01","703-1197","CDISCPILOT","Week 2","DISC1","Subject Disposition","Caregiver Decision:  See Comment Page","Withdrawal by Subject",NA,"07-22-2013",NA,"07-22-2013",NA
+178,"ds.raw","703-1210","CDISCPILOT01","703-1210","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"03-16-2013",NA,"03-16-2013",NA
+179,"ds.raw","703-1210","CDISCPILOT01","703-1210","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"09-06-2013",NA,"09-06-2013",NA
+180,"ds.raw","703-1210","CDISCPILOT01","703-1210","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","09-06-2013","13:30","09-06-2013",NA
+181,"ds.raw","703-1258","CDISCPILOT01","703-1258","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"07-20-2012",NA,"07-20-2012",NA
+182,"ds.raw","703-1258","CDISCPILOT01","703-1258","CDISCPILOT","Week 24","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","12-31-2012","11:30","12-31-2012",NA
+183,"ds.raw","703-1258","CDISCPILOT01","703-1258","CDISCPILOT","Week 26","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"01-21-2013",NA,"01-21-2013",NA
+184,"ds.raw","703-1279","CDISCPILOT01","703-1279","CDISCPILOT","Screening 1","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","04-27-2013","11:00","04-27-2013",NA
+185,"ds.raw","703-1279","CDISCPILOT01","703-1279","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"05-13-2013",NA,"05-13-2013",NA
+186,"ds.raw","703-1279","CDISCPILOT01","703-1279","CDISCPILOT","Week 2","DISC1","Subject Disposition","Caregiver Became Ill","Withdrawal by Subject",NA,"06-22-2013",NA,"06-22-2013",NA
+187,"ds.raw","703-1295","CDISCPILOT01","703-1295","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"11-21-2013",NA,"11-21-2013",NA
+188,"ds.raw","703-1295","CDISCPILOT01","703-1295","CDISCPILOT","Week 20","DISC1","Subject Disposition","Family Wishes to Discontinue","Withdrawal by Subject",NA,"05-19-2014",NA,"05-19-2014",NA
+189,"ds.raw","703-1295","CDISCPILOT01","703-1295","CDISCPILOT","Week 20","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","05-19-2014","14:45","05-19-2014",NA
+190,"ds.raw","703-1299","CDISCPILOT01","703-1299","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"09-12-2012",NA,"09-12-2012",NA
+191,"ds.raw","703-1299","CDISCPILOT01","703-1299","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"03-13-2013",NA,"03-13-2013",NA
+192,"ds.raw","703-1299","CDISCPILOT01","703-1299","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","03-13-2013","11:40","03-13-2013",NA
+193,"ds.raw","703-1335","CDISCPILOT01","703-1335","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"03-17-2014",NA,"03-17-2014",NA
+194,"ds.raw","703-1335","CDISCPILOT01","703-1335","CDISCPILOT","Week 6","DISC1","Subject Disposition","Protocol Violation","Protocol Violation",NA,"05-24-2014",NA,"05-24-2014",NA
+195,"ds.raw","703-1335","CDISCPILOT01","703-1335","CDISCPILOT","Week 6","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","05-24-2014","12:15","05-24-2014",NA
+196,"ds.raw","703-1379","CDISCPILOT01","703-1379","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"09-22-2013",NA,"09-22-2013",NA
+197,"ds.raw","703-1379","CDISCPILOT01","703-1379","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"03-21-2014",NA,"03-21-2014",NA
+198,"ds.raw","703-1379","CDISCPILOT01","703-1379","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","03-21-2014","10:55","03-21-2014",NA
+199,"ds.raw","703-1396","CDISCPILOT01","703-1396","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"02-09-2014",NA,"02-09-2014",NA
+200,"ds.raw","703-1403","CDISCPILOT01","703-1403","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"12-12-2012",NA,"12-12-2012",NA
+201,"ds.raw","703-1403","CDISCPILOT01","703-1403","CDISCPILOT","Week 2","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"12-19-2012",NA,"12-19-2012",NA
+202,"ds.raw","703-1403","CDISCPILOT01","703-1403","CDISCPILOT","Week 2","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","12-19-2012","10:15","12-19-2012",NA
+203,"ds.raw","703-1439","CDISCPILOT01","703-1439","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"03-12-2014",NA,"03-12-2014",NA
+204,"ds.raw","703-1439","CDISCPILOT01","703-1439","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"09-11-2014",NA,"09-11-2014",NA
+205,"ds.raw","703-1439","CDISCPILOT01","703-1439","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","09-11-2014","12:40","09-11-2014",NA
+206,"ds.raw","704-1008","CDISCPILOT01","704-1008","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"01-13-2013",NA,"01-13-2013",NA
+207,"ds.raw","704-1008","CDISCPILOT01","704-1008","CDISCPILOT","Week 6","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"02-25-2013",NA,"02-25-2013",NA
+208,"ds.raw","704-1008","CDISCPILOT01","704-1008","CDISCPILOT","Week 6","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","02-25-2013","11:00","02-25-2013",NA
+209,"ds.raw","704-1009","CDISCPILOT01","704-1009","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"08-27-2013",NA,"08-27-2013",NA
+210,"ds.raw","704-1009","CDISCPILOT01","704-1009","CDISCPILOT","Week 2","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","09-14-2013","15:00","09-14-2013",NA
+211,"ds.raw","704-1009","CDISCPILOT01","704-1009","CDISCPILOT","Week 4","DISC1","Subject Disposition","Too Time Consuming;pt Refused Future Holters","Withdrawal by Subject",NA,"10-02-2013",NA,"10-02-2013",NA
+212,"ds.raw","704-1010","CDISCPILOT01","704-1010","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"02-21-2014",NA,"02-21-2014",NA
+213,"ds.raw","704-1010","CDISCPILOT01","704-1010","CDISCPILOT","Week 20","DISC1","Subject Disposition","Patient is Moving","Withdrawal by Subject",NA,"07-09-2014",NA,"07-09-2014",NA
+214,"ds.raw","704-1010","CDISCPILOT01","704-1010","CDISCPILOT","Week 20","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","07-09-2014","11:00","07-09-2014",NA
+215,"ds.raw","704-1017","CDISCPILOT01","704-1017","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"10-06-2013",NA,"10-06-2013",NA
+216,"ds.raw","704-1017","CDISCPILOT01","704-1017","CDISCPILOT","Week 4","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","11-01-2013","10:45","11-01-2013",NA
+217,"ds.raw","704-1017","CDISCPILOT01","704-1017","CDISCPILOT","Week 6","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"11-24-2013",NA,"11-24-2013",NA
+218,"ds.raw","704-1025","CDISCPILOT01","704-1025","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"09-27-2013",NA,"09-27-2013",NA
+219,"ds.raw","704-1025","CDISCPILOT01","704-1025","CDISCPILOT","Ambul Ecg Removal","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"11-29-2013",NA,"11-29-2013",NA
+220,"ds.raw","704-1025","CDISCPILOT01","704-1025","CDISCPILOT","Ambul Ecg Removal","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","11-29-2013","12:00","11-29-2013",NA
+221,"ds.raw","704-1065","CDISCPILOT01","704-1065","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"10-24-2013",NA,"10-24-2013",NA
+222,"ds.raw","704-1065","CDISCPILOT01","704-1065","CDISCPILOT","Week 12","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"12-24-2013",NA,"12-24-2013",NA
+223,"ds.raw","704-1065","CDISCPILOT01","704-1065","CDISCPILOT","Week 12","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","12-24-2013","11:45","12-24-2013",NA
+224,"ds.raw","704-1074","CDISCPILOT01","704-1074","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"01-22-2014",NA,"01-22-2014",NA
+225,"ds.raw","704-1074","CDISCPILOT01","704-1074","CDISCPILOT","Week 8","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"03-31-2014",NA,"03-31-2014",NA
+226,"ds.raw","704-1074","CDISCPILOT01","704-1074","CDISCPILOT","Week 8","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","03-31-2014","10:30","03-31-2014",NA
+227,"ds.raw","704-1093","CDISCPILOT01","704-1093","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"03-15-2013",NA,"03-15-2013",NA
+228,"ds.raw","704-1093","CDISCPILOT01","704-1093","CDISCPILOT","Week 16","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"06-20-2013",NA,"06-20-2013",NA
+229,"ds.raw","704-1093","CDISCPILOT01","704-1093","CDISCPILOT","Week 16","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","06-20-2013","11:10","06-20-2013",NA
+230,"ds.raw","704-1093","CDISCPILOT01","704-1093","CDISCPILOT","Retrieval","DISC1","Subject Disposition",NA,NA,"Final Retrieval Visit","12-25-2013",NA,"12-25-2013",NA
+231,"ds.raw","704-1114","CDISCPILOT01","704-1114","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"01-23-2013",NA,"01-23-2013",NA
+232,"ds.raw","704-1114","CDISCPILOT01","704-1114","CDISCPILOT","Week 24","DISC1","Subject Disposition","Leaving Area for 5 Months","Withdrawal by Subject",NA,"07-08-2013",NA,"07-08-2013",NA
+233,"ds.raw","704-1114","CDISCPILOT01","704-1114","CDISCPILOT","Week 24","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","07-08-2013","09:56","07-08-2013",NA
+234,"ds.raw","704-1120","CDISCPILOT01","704-1120","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"12-02-2013",NA,"12-02-2013",NA
+235,"ds.raw","704-1120","CDISCPILOT01","704-1120","CDISCPILOT","Week 12","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"02-03-2014",NA,"02-03-2014",NA
+236,"ds.raw","704-1120","CDISCPILOT01","704-1120","CDISCPILOT","Week 12","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","02-03-2014","11:50","02-03-2014",NA
+237,"ds.raw","704-1127","CDISCPILOT01","704-1127","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"10-02-2013",NA,"10-02-2013",NA
+238,"ds.raw","704-1127","CDISCPILOT01","704-1127","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"03-31-2014",NA,"03-31-2014",NA
+239,"ds.raw","704-1127","CDISCPILOT01","704-1127","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","03-31-2014","11:30","03-31-2014",NA
+240,"ds.raw","704-1135","CDISCPILOT01","704-1135","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"10-31-2013",NA,"10-31-2013",NA
+241,"ds.raw","704-1135","CDISCPILOT01","704-1135","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"05-16-2014",NA,"05-16-2014",NA
+242,"ds.raw","704-1135","CDISCPILOT01","704-1135","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","05-16-2014","09:45","05-16-2014",NA
+243,"ds.raw","704-1164","CDISCPILOT01","704-1164","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"09-19-2012",NA,"09-19-2012",NA
+244,"ds.raw","704-1164","CDISCPILOT01","704-1164","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"04-04-2013",NA,"04-04-2013",NA
+245,"ds.raw","704-1164","CDISCPILOT01","704-1164","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","04-04-2013",NA,"04-04-2013",NA
+246,"ds.raw","704-1218","CDISCPILOT01","704-1218","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"11-19-2012",NA,"11-19-2012",NA
+247,"ds.raw","704-1218","CDISCPILOT01","704-1218","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"05-27-2013",NA,"05-27-2013",NA
+248,"ds.raw","704-1218","CDISCPILOT01","704-1218","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","05-27-2013","11:20","05-27-2013",NA
+249,"ds.raw","704-1233","CDISCPILOT01","704-1233","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"03-21-2013",NA,"03-21-2013",NA
+250,"ds.raw","704-1233","CDISCPILOT01","704-1233","CDISCPILOT","Week 16","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","07-11-2013","11:30","07-11-2013",NA
+251,"ds.raw","704-1233","CDISCPILOT01","704-1233","CDISCPILOT","Week 20","DISC1","Subject Disposition","Withdrew Consent","Withdrawal by Subject",NA,"07-14-2013",NA,"07-14-2013",NA
+252,"ds.raw","704-1241","CDISCPILOT01","704-1241","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"08-25-2013",NA,"08-25-2013",NA
+253,"ds.raw","704-1241","CDISCPILOT01","704-1241","CDISCPILOT","Week 8","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"10-31-2013",NA,"10-31-2013",NA
+254,"ds.raw","704-1241","CDISCPILOT01","704-1241","CDISCPILOT","Week 8","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","10-31-2013","09:15","10-31-2013",NA
+255,"ds.raw","704-1260","CDISCPILOT01","704-1260","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"08-30-2012",NA,"08-30-2012",NA
+256,"ds.raw","704-1260","CDISCPILOT01","704-1260","CDISCPILOT","Week 8","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","10-24-2012","15:45","10-24-2012",NA
+257,"ds.raw","704-1260","CDISCPILOT01","704-1260","CDISCPILOT","Week 12","DISC1","Subject Disposition","Too many Visits","Withdrawal by Subject",NA,"01-18-2013",NA,"01-18-2013",NA
+258,"ds.raw","704-1266","CDISCPILOT01","704-1266","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"10-13-2013",NA,"10-13-2013",NA
+259,"ds.raw","704-1266","CDISCPILOT01","704-1266","CDISCPILOT","Week 8","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"12-06-2013",NA,"12-06-2013",NA
+260,"ds.raw","704-1266","CDISCPILOT01","704-1266","CDISCPILOT","Week 8","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","12-06-2013","13:15","12-06-2013",NA
+261,"ds.raw","704-1323","CDISCPILOT01","704-1323","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"07-08-2013",NA,"07-08-2013",NA
+262,"ds.raw","704-1323","CDISCPILOT01","704-1323","CDISCPILOT","Week 4","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","08-04-2013","13:45","08-04-2013",NA
+263,"ds.raw","704-1323","CDISCPILOT01","704-1323","CDISCPILOT","Week 6","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"08-08-2013",NA,"08-08-2013",NA
+264,"ds.raw","704-1325","CDISCPILOT01","704-1325","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"04-23-2014",NA,"04-23-2014",NA
+265,"ds.raw","704-1325","CDISCPILOT01","704-1325","CDISCPILOT","Week 16","DISC1","Subject Disposition","Protocol Violation","Protocol Violation",NA,"08-06-2014",NA,"08-06-2014",NA
+266,"ds.raw","704-1325","CDISCPILOT01","704-1325","CDISCPILOT","Week 16","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","08-06-2014","13:30","08-06-2014",NA
+267,"ds.raw","704-1332","CDISCPILOT01","704-1332","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"12-09-2013",NA,"12-09-2013",NA
+268,"ds.raw","704-1332","CDISCPILOT01","704-1332","CDISCPILOT","Week 12","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"02-16-2014",NA,"02-16-2014",NA
+269,"ds.raw","704-1332","CDISCPILOT01","704-1332","CDISCPILOT","Week 12","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","02-16-2014","14:30","02-16-2014",NA
+270,"ds.raw","704-1351","CDISCPILOT01","704-1351","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"10-12-2013",NA,"10-12-2013",NA
+271,"ds.raw","704-1351","CDISCPILOT01","704-1351","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"04-18-2014",NA,"04-18-2014",NA
+272,"ds.raw","704-1351","CDISCPILOT01","704-1351","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","04-18-2014","10:30","04-18-2014",NA
+273,"ds.raw","704-1388","CDISCPILOT01","704-1388","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"12-07-2012",NA,"12-07-2012",NA
+274,"ds.raw","704-1388","CDISCPILOT01","704-1388","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"06-19-2013",NA,"06-19-2013",NA
+275,"ds.raw","704-1388","CDISCPILOT01","704-1388","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","06-19-2013","12:30","06-19-2013",NA
+276,"ds.raw","704-1435","CDISCPILOT01","704-1435","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"11-17-2012",NA,"11-17-2012",NA
+277,"ds.raw","704-1435","CDISCPILOT01","704-1435","CDISCPILOT","Week 8","DISC1","Subject Disposition","Withdrew Consent","Withdrawal by Subject",NA,"01-12-2013",NA,"01-12-2013",NA
+278,"ds.raw","704-1435","CDISCPILOT01","704-1435","CDISCPILOT","Week 8","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","01-12-2013","12:00","01-12-2013",NA
+279,"ds.raw","704-1445","CDISCPILOT01","704-1445","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"05-11-2014",NA,"05-11-2014","11/01/2014"
+280,"ds.raw","704-1445","CDISCPILOT01","704-1445","CDISCPILOT","Week 20","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","10-01-2014","09:30","10-01-2014","11/01/2014"
+281,"ds.raw","704-1445","CDISCPILOT01","704-1445","CDISCPILOT","Week 24","DISC1","Subject Disposition","Death","Death",NA,"11-01-2014",NA,"11-01-2014","11/01/2014"
+282,"ds.raw","705-1011","CDISCPILOT01","705-1011","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"09-01-2013",NA,"09-01-2013",NA
+283,"ds.raw","705-1018","CDISCPILOT01","705-1018","CDISCPILOT","Screening 1","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","06-30-2013","10:00","06-30-2013",NA
+284,"ds.raw","705-1018","CDISCPILOT01","705-1018","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"07-05-2013",NA,"07-05-2013",NA
+285,"ds.raw","705-1018","CDISCPILOT01","705-1018","CDISCPILOT","Week 2","DISC1","Subject Disposition","Patient Withdrew Consent","Withdrawal by Subject",NA,"07-12-2013",NA,"07-12-2013",NA
+286,"ds.raw","705-1031","CDISCPILOT01","705-1031","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"11-27-2013",NA,"11-27-2013",NA
+287,"ds.raw","705-1031","CDISCPILOT01","705-1031","CDISCPILOT","Week 24","DISC1","Subject Disposition","Unable to Contact Patient (Lost to Follow-Up)","Lost to Follow-Up",NA,"05-11-2014",NA,"05-11-2014",NA
+288,"ds.raw","705-1031","CDISCPILOT01","705-1031","CDISCPILOT","Week 24","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","05-11-2014","09:55","05-11-2014",NA
+289,"ds.raw","705-1058","CDISCPILOT01","705-1058","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"12-02-2013",NA,"12-02-2013",NA
+290,"ds.raw","705-1059","CDISCPILOT01","705-1059","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"08-05-2013",NA,"08-05-2013",NA
+291,"ds.raw","705-1059","CDISCPILOT01","705-1059","CDISCPILOT","Week 16","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"12-05-2013",NA,"12-05-2013",NA
+292,"ds.raw","705-1059","CDISCPILOT01","705-1059","CDISCPILOT","Week 16","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","12-05-2013","09:55","12-05-2013",NA
+293,"ds.raw","705-1059","CDISCPILOT01","705-1059","CDISCPILOT","Retrieval","DISC1","Subject Disposition",NA,NA,"Final Retrieval Visit","02-06-2014",NA,"02-06-2014",NA
+294,"ds.raw","705-1112","CDISCPILOT01","705-1112","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"02-23-2014",NA,"02-23-2014",NA
+295,"ds.raw","705-1186","CDISCPILOT01","705-1186","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"01-08-2014",NA,"01-08-2014",NA
+296,"ds.raw","705-1186","CDISCPILOT01","705-1186","CDISCPILOT","Week 4","DISC1","Subject Disposition","Hyperbilirubinemia","Physician Decision",NA,"02-07-2014",NA,"02-07-2014",NA
+297,"ds.raw","705-1186","CDISCPILOT01","705-1186","CDISCPILOT","Unscheduled 5.1","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","02-07-2014","15:20","02-07-2014",NA
+298,"ds.raw","705-1199","CDISCPILOT01","705-1199","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"09-16-2013",NA,"09-16-2013",NA
+299,"ds.raw","705-1199","CDISCPILOT01","705-1199","CDISCPILOT","Week 2","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"09-29-2013",NA,"09-29-2013",NA
+300,"ds.raw","705-1199","CDISCPILOT01","705-1199","CDISCPILOT","Week 2","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","09-29-2013","10:30","09-29-2013",NA
+301,"ds.raw","705-1243","CDISCPILOT01","705-1243","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"02-26-2013",NA,"02-26-2013",NA
+302,"ds.raw","705-1280","CDISCPILOT01","705-1280","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"01-17-2014",NA,"01-17-2014",NA
+303,"ds.raw","705-1280","CDISCPILOT01","705-1280","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","07-24-2014","15:30","07-24-2014",NA
+304,"ds.raw","705-1280","CDISCPILOT01","705-1280","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"07-25-2014",NA,"07-25-2014",NA
+305,"ds.raw","705-1281","CDISCPILOT01","705-1281","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"11-28-2013",NA,"11-28-2013",NA
+306,"ds.raw","705-1281","CDISCPILOT01","705-1281","CDISCPILOT","Week 16","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"03-17-2014",NA,"03-17-2014",NA
+307,"ds.raw","705-1281","CDISCPILOT01","705-1281","CDISCPILOT","Week 16","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","03-17-2014","09:50","03-17-2014",NA
+308,"ds.raw","705-1282","CDISCPILOT01","705-1282","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"12-26-2012",NA,"12-26-2012",NA
+309,"ds.raw","705-1282","CDISCPILOT01","705-1282","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"06-24-2013",NA,"06-24-2013",NA
+310,"ds.raw","705-1282","CDISCPILOT01","705-1282","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","06-24-2013","15:25","06-24-2013",NA
+311,"ds.raw","705-1292","CDISCPILOT01","705-1292","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"10-14-2013",NA,"10-14-2013",NA
+312,"ds.raw","705-1292","CDISCPILOT01","705-1292","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"05-14-2014",NA,"05-14-2014",NA
+313,"ds.raw","705-1292","CDISCPILOT01","705-1292","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","05-14-2014","13:33","05-14-2014",NA
+314,"ds.raw","705-1303","CDISCPILOT01","705-1303","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"12-16-2013",NA,"12-16-2013",NA
+315,"ds.raw","705-1303","CDISCPILOT01","705-1303","CDISCPILOT","Week 16","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","04-07-2014","14:27","04-07-2014",NA
+316,"ds.raw","705-1303","CDISCPILOT01","705-1303","CDISCPILOT","Week 20","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"06-02-2014",NA,"06-02-2014",NA
+317,"ds.raw","705-1310","CDISCPILOT01","705-1310","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"11-02-2013",NA,"11-02-2013",NA
+318,"ds.raw","705-1310","CDISCPILOT01","705-1310","CDISCPILOT","Week 12","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"01-23-2014",NA,"01-23-2014",NA
+319,"ds.raw","705-1310","CDISCPILOT01","705-1310","CDISCPILOT","Week 12","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","01-23-2014","09:40","01-23-2014",NA
+320,"ds.raw","705-1349","CDISCPILOT01","705-1349","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"03-10-2013",NA,"03-10-2013",NA
+321,"ds.raw","705-1349","CDISCPILOT01","705-1349","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"09-08-2013",NA,"09-08-2013",NA
+322,"ds.raw","705-1349","CDISCPILOT01","705-1349","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","09-08-2013","10:10","09-08-2013",NA
+323,"ds.raw","705-1377","CDISCPILOT01","705-1377","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"01-04-2014",NA,"01-04-2014",NA
+324,"ds.raw","705-1377","CDISCPILOT01","705-1377","CDISCPILOT","Week 4","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","02-07-2014","09:25","02-07-2014",NA
+325,"ds.raw","705-1377","CDISCPILOT01","705-1377","CDISCPILOT","Week 6","DISC1","Subject Disposition","Patient Withdrew Consent","Withdrawal by Subject",NA,"03-07-2014",NA,"03-07-2014",NA
+326,"ds.raw","705-1382","CDISCPILOT01","705-1382","CDISCPILOT","Screening 1","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","05-09-2013","11:15","05-09-2013",NA
+327,"ds.raw","705-1382","CDISCPILOT01","705-1382","CDISCPILOT","Week 2","DISC1","Subject Disposition","Protocol Entry Criteria not Met","Protocol Violation",NA,"05-13-2013",NA,"05-13-2013",NA
+328,"ds.raw","705-1382","CDISCPILOT01","705-1382","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"05-13-2013",NA,"05-13-2013",NA
+329,"ds.raw","705-1393","CDISCPILOT01","705-1393","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"09-07-2012",NA,"09-07-2012",NA
+330,"ds.raw","705-1393","CDISCPILOT01","705-1393","CDISCPILOT","Week 20","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"02-20-2013",NA,"02-20-2013",NA
+331,"ds.raw","705-1393","CDISCPILOT01","705-1393","CDISCPILOT","Week 20","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","02-20-2013","16:35","02-20-2013",NA
+332,"ds.raw","705-1421","CDISCPILOT01","705-1421","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"01-14-2013",NA,"01-14-2013",NA
+333,"ds.raw","705-1431","CDISCPILOT01","705-1431","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"06-23-2013",NA,"06-23-2013",NA
+334,"ds.raw","705-1431","CDISCPILOT01","705-1431","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"12-19-2013",NA,"12-19-2013",NA
+335,"ds.raw","705-1431","CDISCPILOT01","705-1431","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","12-19-2013","10:05","12-19-2013",NA
+336,"ds.raw","706-1041","CDISCPILOT01","706-1041","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"12-31-2013",NA,"12-31-2013",NA
+337,"ds.raw","706-1041","CDISCPILOT01","706-1041","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"07-29-2014",NA,"07-29-2014",NA
+338,"ds.raw","706-1041","CDISCPILOT01","706-1041","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","07-29-2014","13:45","07-29-2014",NA
+339,"ds.raw","706-1049","CDISCPILOT01","706-1049","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"05-14-2013",NA,"05-14-2013",NA
+340,"ds.raw","706-1049","CDISCPILOT01","706-1049","CDISCPILOT","Week 6","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"06-25-2013",NA,"06-25-2013",NA
+341,"ds.raw","706-1049","CDISCPILOT01","706-1049","CDISCPILOT","Week 6","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","06-25-2013","11:00","06-25-2013",NA
+342,"ds.raw","706-1049","CDISCPILOT01","706-1049","CDISCPILOT","Retrieval","DISC1","Subject Disposition",NA,NA,"Final Retrieval Visit","11-26-2013",NA,"11-26-2013",NA
+343,"ds.raw","706-1384","CDISCPILOT01","706-1384","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"09-15-2012",NA,"09-15-2012",NA
+344,"ds.raw","706-1384","CDISCPILOT01","706-1384","CDISCPILOT","Week 2","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"09-29-2012",NA,"09-29-2012",NA
+345,"ds.raw","706-1384","CDISCPILOT01","706-1384","CDISCPILOT","Week 2","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","09-29-2012","10:00","09-29-2012",NA
+346,"ds.raw","706-1384","CDISCPILOT01","706-1384","CDISCPILOT","Retrieval","DISC1","Subject Disposition",NA,NA,"Final Retrieval Visit","06-22-2013",NA,"06-22-2013",NA
+347,"ds.raw","707-1037","CDISCPILOT01","707-1037","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"12-20-2013",NA,"12-20-2013",NA
+348,"ds.raw","707-1037","CDISCPILOT01","707-1037","CDISCPILOT","Week 2","DISC1","Subject Disposition","Withdraws Consent","Withdrawal by Subject",NA,"01-08-2014",NA,"01-08-2014",NA
+349,"ds.raw","707-1037","CDISCPILOT01","707-1037","CDISCPILOT","Week 2","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","01-08-2014","12:40","01-08-2014",NA
+350,"ds.raw","707-1206","CDISCPILOT01","707-1206","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"10-28-2013",NA,"10-28-2013",NA
+351,"ds.raw","707-1206","CDISCPILOT01","707-1206","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"04-27-2014",NA,"04-27-2014",NA
+352,"ds.raw","707-1206","CDISCPILOT01","707-1206","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","04-27-2014","08:00","04-27-2014",NA
+353,"ds.raw","707-1276","CDISCPILOT01","707-1276","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"10-12-2012",NA,"10-12-2012",NA
+354,"ds.raw","707-1430","CDISCPILOT01","707-1430","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"02-14-2014",NA,"02-14-2014",NA
+355,"ds.raw","707-1434","CDISCPILOT01","707-1434","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"07-25-2013",NA,"07-25-2013",NA
+356,"ds.raw","708-1013","CDISCPILOT01","708-1013","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"10-13-2012",NA,"10-13-2012",NA
+357,"ds.raw","708-1019","CDISCPILOT01","708-1019","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"12-20-2013",NA,"12-20-2013",NA
+358,"ds.raw","708-1019","CDISCPILOT01","708-1019","CDISCPILOT","Week 2","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"01-23-2014",NA,"01-23-2014",NA
+359,"ds.raw","708-1019","CDISCPILOT01","708-1019","CDISCPILOT","Week 2","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","01-23-2014","10:10","01-23-2014",NA
+360,"ds.raw","708-1032","CDISCPILOT01","708-1032","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"02-09-2013",NA,"02-09-2013",NA
+361,"ds.raw","708-1032","CDISCPILOT01","708-1032","CDISCPILOT","Week 4","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"03-09-2013",NA,"03-09-2013",NA
+362,"ds.raw","708-1032","CDISCPILOT01","708-1032","CDISCPILOT","Week 4","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","03-09-2013","10:45","03-09-2013",NA
+363,"ds.raw","708-1054","CDISCPILOT01","708-1054","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"02-14-2014",NA,"02-14-2014",NA
+364,"ds.raw","708-1067","CDISCPILOT01","708-1067","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"02-07-2013",NA,"02-07-2013",NA
+365,"ds.raw","708-1084","CDISCPILOT01","708-1084","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"05-09-2013",NA,"05-09-2013",NA
+366,"ds.raw","708-1084","CDISCPILOT01","708-1084","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"11-11-2013",NA,"11-11-2013",NA
+367,"ds.raw","708-1084","CDISCPILOT01","708-1084","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","11-11-2013","10:00","11-11-2013",NA
+368,"ds.raw","708-1087","CDISCPILOT01","708-1087","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"10-22-2012",NA,"10-22-2012",NA
+369,"ds.raw","708-1087","CDISCPILOT01","708-1087","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"04-28-2013",NA,"04-28-2013",NA
+370,"ds.raw","708-1087","CDISCPILOT01","708-1087","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","04-28-2013","12:40","04-28-2013",NA
+371,"ds.raw","708-1104","CDISCPILOT01","708-1104","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"01-23-2014",NA,"01-23-2014",NA
+372,"ds.raw","708-1158","CDISCPILOT01","708-1158","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"02-08-2014",NA,"02-08-2014",NA
+373,"ds.raw","708-1158","CDISCPILOT01","708-1158","CDISCPILOT","Week 6","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"03-22-2014",NA,"03-22-2014",NA
+374,"ds.raw","708-1158","CDISCPILOT01","708-1158","CDISCPILOT","Week 6","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","03-22-2014","11:15","03-22-2014",NA
+375,"ds.raw","708-1171","CDISCPILOT01","708-1171","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"12-06-2012",NA,"12-06-2012",NA
+376,"ds.raw","708-1171","CDISCPILOT01","708-1171","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","06-03-2013","10:40","06-03-2013",NA
+377,"ds.raw","708-1171","CDISCPILOT01","708-1171","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"06-04-2013",NA,"06-04-2013",NA
+378,"ds.raw","708-1178","CDISCPILOT01","708-1178","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"12-29-2013",NA,"12-29-2013",NA
+379,"ds.raw","708-1178","CDISCPILOT01","708-1178","CDISCPILOT","Week 12","DISC1","Subject Disposition","Dr Put Pt on an Excluded Medication","Physician Decision",NA,"04-06-2014",NA,"04-06-2014",NA
+380,"ds.raw","708-1178","CDISCPILOT01","708-1178","CDISCPILOT","Week 12","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","04-06-2014","08:50","04-06-2014",NA
+381,"ds.raw","708-1184","CDISCPILOT01","708-1184","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"01-14-2013",NA,"01-14-2013",NA
+382,"ds.raw","708-1213","CDISCPILOT01","708-1213","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"02-09-2013",NA,"02-09-2013",NA
+383,"ds.raw","708-1213","CDISCPILOT01","708-1213","CDISCPILOT","Week 2","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","02-22-2013","11:05","02-22-2013",NA
+384,"ds.raw","708-1213","CDISCPILOT01","708-1213","CDISCPILOT","Week 4","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"02-26-2013",NA,"02-26-2013",NA
+385,"ds.raw","708-1216","CDISCPILOT01","708-1216","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"10-24-2012",NA,"10-24-2012",NA
+386,"ds.raw","708-1216","CDISCPILOT01","708-1216","CDISCPILOT","Week 6","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"12-06-2012",NA,"12-06-2012",NA
+387,"ds.raw","708-1216","CDISCPILOT01","708-1216","CDISCPILOT","Week 6","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","12-06-2012","11:50","12-06-2012",NA
+388,"ds.raw","708-1236","CDISCPILOT01","708-1236","CDISCPILOT","Unscheduled 1.1","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","09-19-2013","10:35","09-19-2013",NA
+389,"ds.raw","708-1236","CDISCPILOT01","708-1236","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"09-21-2013",NA,"09-21-2013",NA
+390,"ds.raw","708-1236","CDISCPILOT01","708-1236","CDISCPILOT","Week 2","DISC1","Subject Disposition","Patient Withdrew Consent","Withdrawal by Subject",NA,"09-26-2013",NA,"09-26-2013",NA
+391,"ds.raw","708-1242","CDISCPILOT01","708-1242","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"08-13-2012",NA,"08-13-2012",NA
+392,"ds.raw","708-1253","CDISCPILOT01","708-1253","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"05-07-2013",NA,"05-07-2013",NA
+393,"ds.raw","708-1253","CDISCPILOT01","708-1253","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","11-04-2013","13:40","11-04-2013",NA
+394,"ds.raw","708-1253","CDISCPILOT01","708-1253","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"11-05-2013",NA,"11-05-2013",NA
+395,"ds.raw","708-1272","CDISCPILOT01","708-1272","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"02-06-2013",NA,"02-06-2013",NA
+396,"ds.raw","708-1272","CDISCPILOT01","708-1272","CDISCPILOT","Week 8","DISC1","Subject Disposition","Patch Discomfort","Withdrawal by Subject",NA,"04-04-2013",NA,"04-04-2013",NA
+397,"ds.raw","708-1272","CDISCPILOT01","708-1272","CDISCPILOT","Week 8","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","04-04-2013","11:05","04-04-2013",NA
+398,"ds.raw","708-1286","CDISCPILOT01","708-1286","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"09-10-2013",NA,"09-10-2013",NA
+399,"ds.raw","708-1286","CDISCPILOT01","708-1286","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"03-08-2014",NA,"03-08-2014",NA
+400,"ds.raw","708-1286","CDISCPILOT01","708-1286","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","03-08-2014","09:50","03-08-2014",NA
+401,"ds.raw","708-1296","CDISCPILOT01","708-1296","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"06-14-2013",NA,"06-14-2013",NA
+402,"ds.raw","708-1296","CDISCPILOT01","708-1296","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"12-12-2013",NA,"12-12-2013",NA
+403,"ds.raw","708-1296","CDISCPILOT01","708-1296","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","12-12-2013","09:30","12-12-2013",NA
+404,"ds.raw","708-1297","CDISCPILOT01","708-1297","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"01-25-2013",NA,"01-25-2013",NA
+405,"ds.raw","708-1297","CDISCPILOT01","708-1297","CDISCPILOT","Week 16","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"05-08-2013",NA,"05-08-2013",NA
+406,"ds.raw","708-1297","CDISCPILOT01","708-1297","CDISCPILOT","Week 16","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","05-08-2013","10:30","05-08-2013",NA
+407,"ds.raw","708-1316","CDISCPILOT01","708-1316","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"08-23-2013",NA,"08-23-2013",NA
+408,"ds.raw","708-1316","CDISCPILOT01","708-1316","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"03-01-2014",NA,"03-01-2014",NA
+409,"ds.raw","708-1316","CDISCPILOT01","708-1316","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","03-01-2014","10:25","03-01-2014",NA
+410,"ds.raw","708-1336","CDISCPILOT01","708-1336","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"12-07-2012",NA,"12-07-2012",NA
+411,"ds.raw","708-1336","CDISCPILOT01","708-1336","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"06-05-2013",NA,"06-05-2013",NA
+412,"ds.raw","708-1336","CDISCPILOT01","708-1336","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","06-05-2013",NA,"06-05-2013",NA
+413,"ds.raw","708-1342","CDISCPILOT01","708-1342","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"12-29-2012",NA,"12-29-2012",NA
+414,"ds.raw","708-1342","CDISCPILOT01","708-1342","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"06-28-2013",NA,"06-28-2013",NA
+415,"ds.raw","708-1342","CDISCPILOT01","708-1342","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","06-28-2013","09:40","06-28-2013",NA
+416,"ds.raw","708-1347","CDISCPILOT01","708-1347","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"04-20-2013",NA,"04-20-2013",NA
+417,"ds.raw","708-1347","CDISCPILOT01","708-1347","CDISCPILOT","Week 12","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"06-18-2013",NA,"06-18-2013",NA
+418,"ds.raw","708-1347","CDISCPILOT01","708-1347","CDISCPILOT","Week 12","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","06-18-2013","09:20","06-18-2013",NA
+419,"ds.raw","708-1348","CDISCPILOT01","708-1348","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"08-05-2013",NA,"08-05-2013",NA
+420,"ds.raw","708-1348","CDISCPILOT01","708-1348","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"02-13-2014",NA,"02-13-2014",NA
+421,"ds.raw","708-1348","CDISCPILOT01","708-1348","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","02-13-2014","10:25","02-13-2014",NA
+422,"ds.raw","708-1352","CDISCPILOT01","708-1352","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"09-16-2013",NA,"09-16-2013",NA
+423,"ds.raw","708-1353","CDISCPILOT01","708-1353","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"07-04-2013",NA,"07-04-2013",NA
+424,"ds.raw","708-1353","CDISCPILOT01","708-1353","CDISCPILOT","Week 8","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"09-10-2013",NA,"09-10-2013",NA
+425,"ds.raw","708-1353","CDISCPILOT01","708-1353","CDISCPILOT","Week 8","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","09-10-2013","13:15","09-10-2013",NA
+426,"ds.raw","708-1372","CDISCPILOT01","708-1372","CDISCPILOT","Screening 1","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","04-03-2013","11:00","04-03-2013",NA
+427,"ds.raw","708-1372","CDISCPILOT01","708-1372","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"04-12-2013",NA,"04-12-2013",NA
+428,"ds.raw","708-1372","CDISCPILOT01","708-1372","CDISCPILOT","Week 2","DISC1","Subject Disposition","Protocol Entry Criteria not Met","Protocol Violation",NA,"05-10-2013",NA,"05-10-2013",NA
+429,"ds.raw","708-1378","CDISCPILOT01","708-1378","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"09-03-2013",NA,"09-03-2013",NA
+430,"ds.raw","708-1378","CDISCPILOT01","708-1378","CDISCPILOT","Week 20","DISC1","Subject Disposition","Sponsor Decision (Study or Patient Discontinued by the Sponsor)","Study Terminated by Sponsor",NA,"01-28-2014",NA,"01-28-2014",NA
+431,"ds.raw","708-1378","CDISCPILOT01","708-1378","CDISCPILOT","Week 20","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","01-28-2014","13:00","01-28-2014",NA
+432,"ds.raw","708-1406","CDISCPILOT01","708-1406","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"12-26-2013",NA,"12-26-2013",NA
+433,"ds.raw","708-1406","CDISCPILOT01","708-1406","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"07-02-2014",NA,"07-02-2014",NA
+434,"ds.raw","708-1406","CDISCPILOT01","708-1406","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","07-02-2014","13:45","07-02-2014",NA
+435,"ds.raw","708-1428","CDISCPILOT01","708-1428","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"11-09-2013",NA,"11-09-2013",NA
+436,"ds.raw","708-1428","CDISCPILOT01","708-1428","CDISCPILOT","Week 8","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"01-31-2014",NA,"01-31-2014",NA
+437,"ds.raw","708-1428","CDISCPILOT01","708-1428","CDISCPILOT","Week 8","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","01-31-2014","11:10","01-31-2014",NA
+438,"ds.raw","709-1001","CDISCPILOT01","709-1001","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"10-08-2013",NA,"10-08-2013",NA
+439,"ds.raw","709-1001","CDISCPILOT01","709-1001","CDISCPILOT","Week 24","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","03-17-2014","11:10","03-17-2014",NA
+440,"ds.raw","709-1001","CDISCPILOT01","709-1001","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"04-08-2014",NA,"04-08-2014",NA
+441,"ds.raw","709-1007","CDISCPILOT01","709-1007","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"07-31-2012",NA,"07-31-2012",NA
+442,"ds.raw","709-1007","CDISCPILOT01","709-1007","CDISCPILOT","Week 4","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"09-01-2012",NA,"09-01-2012",NA
+443,"ds.raw","709-1007","CDISCPILOT01","709-1007","CDISCPILOT","Week 4","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","09-01-2012","12:30","09-01-2012",NA
+444,"ds.raw","709-1020","CDISCPILOT01","709-1020","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"12-01-2012",NA,"12-01-2012",NA
+445,"ds.raw","709-1020","CDISCPILOT01","709-1020","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"06-01-2013",NA,"06-01-2013",NA
+446,"ds.raw","709-1020","CDISCPILOT01","709-1020","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","06-01-2013","10:40","06-01-2013",NA
+447,"ds.raw","709-1029","CDISCPILOT01","709-1029","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"12-25-2012",NA,"12-25-2012",NA
+448,"ds.raw","709-1029","CDISCPILOT01","709-1029","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"06-26-2013",NA,"06-26-2013",NA
+449,"ds.raw","709-1029","CDISCPILOT01","709-1029","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","06-26-2013","10:58","06-26-2013",NA
+450,"ds.raw","709-1081","CDISCPILOT01","709-1081","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"01-18-2014",NA,"01-18-2014",NA
+451,"ds.raw","709-1081","CDISCPILOT01","709-1081","CDISCPILOT","Week 16","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"05-10-2014",NA,"05-10-2014",NA
+452,"ds.raw","709-1081","CDISCPILOT01","709-1081","CDISCPILOT","Week 16","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","05-10-2014","11:15","05-10-2014",NA
+453,"ds.raw","709-1088","CDISCPILOT01","709-1088","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"04-12-2014",NA,"04-12-2014",NA
+454,"ds.raw","709-1088","CDISCPILOT01","709-1088","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"10-09-2014",NA,"10-09-2014",NA
+455,"ds.raw","709-1088","CDISCPILOT01","709-1088","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","10-09-2014","13:25","10-09-2014",NA
+456,"ds.raw","709-1099","CDISCPILOT01","709-1099","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"10-25-2013",NA,"10-25-2013",NA
+457,"ds.raw","709-1099","CDISCPILOT01","709-1099","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"04-25-2014",NA,"04-25-2014",NA
+458,"ds.raw","709-1099","CDISCPILOT01","709-1099","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","04-25-2014","09:10","04-25-2014",NA
+459,"ds.raw","709-1102","CDISCPILOT01","709-1102","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"01-15-2013",NA,"01-15-2013",NA
+460,"ds.raw","709-1102","CDISCPILOT01","709-1102","CDISCPILOT","Week 12","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"03-31-2013",NA,"03-31-2013",NA
+461,"ds.raw","709-1102","CDISCPILOT01","709-1102","CDISCPILOT","Week 12","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","03-31-2013","12:15","03-31-2013",NA
+462,"ds.raw","709-1168","CDISCPILOT01","709-1168","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"08-02-2013",NA,"08-02-2013",NA
+463,"ds.raw","709-1168","CDISCPILOT01","709-1168","CDISCPILOT","Week 8","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"09-27-2013",NA,"09-27-2013",NA
+464,"ds.raw","709-1168","CDISCPILOT01","709-1168","CDISCPILOT","Week 8","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","09-27-2013","10:05","09-27-2013",NA
+465,"ds.raw","709-1217","CDISCPILOT01","709-1217","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"03-04-2013",NA,"03-04-2013",NA
+466,"ds.raw","709-1217","CDISCPILOT01","709-1217","CDISCPILOT","Week 16","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"06-25-2013",NA,"06-25-2013",NA
+467,"ds.raw","709-1217","CDISCPILOT01","709-1217","CDISCPILOT","Week 16","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","06-25-2013","10:35","06-25-2013",NA
+468,"ds.raw","709-1224","CDISCPILOT01","709-1224","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"11-18-2013",NA,"11-18-2013",NA
+469,"ds.raw","709-1237","CDISCPILOT01","709-1237","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"01-17-2014",NA,"01-17-2014",NA
+470,"ds.raw","709-1238","CDISCPILOT01","709-1238","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"05-15-2013",NA,"05-15-2013",NA
+471,"ds.raw","709-1238","CDISCPILOT01","709-1238","CDISCPILOT","Week 12","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"08-07-2013",NA,"08-07-2013",NA
+472,"ds.raw","709-1238","CDISCPILOT01","709-1238","CDISCPILOT","Week 12","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","08-07-2013","13:20","08-07-2013",NA
+473,"ds.raw","709-1259","CDISCPILOT01","709-1259","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"01-26-2013",NA,"01-26-2013",NA
+474,"ds.raw","709-1259","CDISCPILOT01","709-1259","CDISCPILOT","Week 20","DISC1","Subject Disposition","Lack of Efficacy, Patient Caregiver Perception","Lack of Efficacy",NA,"06-13-2013",NA,"06-13-2013",NA
+475,"ds.raw","709-1259","CDISCPILOT01","709-1259","CDISCPILOT","Week 20","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","06-13-2013","12:23","06-13-2013",NA
+476,"ds.raw","709-1285","CDISCPILOT01","709-1285","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"03-24-2013",NA,"03-24-2013",NA
+477,"ds.raw","709-1285","CDISCPILOT01","709-1285","CDISCPILOT","Week 12","DISC1","Subject Disposition","Sponsor Decision (Study or Patient Discontinued by the Sponsor)","Study Terminated by Sponsor",NA,"05-31-2013",NA,"05-31-2013",NA
+478,"ds.raw","709-1285","CDISCPILOT01","709-1285","CDISCPILOT","Week 12","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","05-31-2013","13:15","05-31-2013",NA
+479,"ds.raw","709-1301","CDISCPILOT01","709-1301","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"07-19-2013",NA,"07-19-2013",NA
+480,"ds.raw","709-1301","CDISCPILOT01","709-1301","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"01-17-2014",NA,"01-17-2014",NA
+481,"ds.raw","709-1301","CDISCPILOT01","709-1301","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","01-17-2014","10:07","01-17-2014",NA
+482,"ds.raw","709-1306","CDISCPILOT01","709-1306","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"02-03-2014",NA,"02-03-2014",NA
+483,"ds.raw","709-1306","CDISCPILOT01","709-1306","CDISCPILOT","Week 20","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"06-25-2014",NA,"06-25-2014",NA
+484,"ds.raw","709-1306","CDISCPILOT01","709-1306","CDISCPILOT","Week 20","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","06-25-2014","10:45","06-25-2014",NA
+485,"ds.raw","709-1309","CDISCPILOT01","709-1309","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"06-19-2013",NA,"06-19-2013",NA
+486,"ds.raw","709-1309","CDISCPILOT01","709-1309","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"12-19-2013",NA,"12-19-2013",NA
+487,"ds.raw","709-1309","CDISCPILOT01","709-1309","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","12-19-2013","10:35","12-19-2013",NA
+488,"ds.raw","709-1312","CDISCPILOT01","709-1312","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"04-20-2014",NA,"04-20-2014",NA
+489,"ds.raw","709-1312","CDISCPILOT01","709-1312","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"10-19-2014",NA,"10-19-2014",NA
+490,"ds.raw","709-1312","CDISCPILOT01","709-1312","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","10-19-2014","10:00","10-19-2014",NA
+491,"ds.raw","709-1326","CDISCPILOT01","709-1326","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"04-05-2013",NA,"04-05-2013",NA
+492,"ds.raw","709-1326","CDISCPILOT01","709-1326","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"10-02-2013",NA,"10-02-2013",NA
+493,"ds.raw","709-1326","CDISCPILOT01","709-1326","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","10-02-2013","09:40","10-02-2013",NA
+494,"ds.raw","709-1329","CDISCPILOT01","709-1329","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"08-15-2013",NA,"08-15-2013",NA
+495,"ds.raw","709-1329","CDISCPILOT01","709-1329","CDISCPILOT","Week 2","DISC1","Subject Disposition","Caregiver Burden","Withdrawal by Subject",NA,"08-29-2013",NA,"08-29-2013",NA
+496,"ds.raw","709-1329","CDISCPILOT01","709-1329","CDISCPILOT","Week 2","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","08-29-2013","10:35","08-29-2013",NA
+497,"ds.raw","709-1339","CDISCPILOT01","709-1339","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"12-23-2012",NA,"12-23-2012",NA
+498,"ds.raw","709-1339","CDISCPILOT01","709-1339","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"06-24-2013",NA,"06-24-2013",NA
+499,"ds.raw","709-1339","CDISCPILOT01","709-1339","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","06-24-2013","10:10","06-24-2013",NA
+500,"ds.raw","709-1424","CDISCPILOT01","709-1424","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"03-03-2013",NA,"03-03-2013",NA
+501,"ds.raw","709-1424","CDISCPILOT01","709-1424","CDISCPILOT","Week 2","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"03-08-2013",NA,"03-08-2013",NA
+502,"ds.raw","709-1424","CDISCPILOT01","709-1424","CDISCPILOT","Unscheduled 4.1","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","03-17-2013",NA,"03-17-2013",NA
+503,"ds.raw","710-1002","CDISCPILOT01","710-1002","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"01-14-2014",NA,"01-14-2014",NA
+504,"ds.raw","710-1002","CDISCPILOT01","710-1002","CDISCPILOT","Week 2","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"01-18-2014",NA,"01-18-2014",NA
+505,"ds.raw","710-1002","CDISCPILOT01","710-1002","CDISCPILOT","Week 2","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","01-18-2014","15:00","01-18-2014",NA
+506,"ds.raw","710-1006","CDISCPILOT01","710-1006","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"02-10-2013",NA,"02-10-2013",NA
+507,"ds.raw","710-1006","CDISCPILOT01","710-1006","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"08-10-2013",NA,"08-10-2013",NA
+508,"ds.raw","710-1006","CDISCPILOT01","710-1006","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","08-10-2013","10:10","08-10-2013",NA
+509,"ds.raw","710-1021","CDISCPILOT01","710-1021","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"09-27-2013",NA,"09-27-2013",NA
+510,"ds.raw","710-1021","CDISCPILOT01","710-1021","CDISCPILOT","Week 6","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"11-12-2013",NA,"11-12-2013",NA
+511,"ds.raw","710-1021","CDISCPILOT01","710-1021","CDISCPILOT","Week 6","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","11-12-2013","16:35","11-12-2013",NA
+512,"ds.raw","710-1027","CDISCPILOT01","710-1027","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"02-28-2014",NA,"02-28-2014",NA
+513,"ds.raw","710-1027","CDISCPILOT01","710-1027","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"08-29-2014",NA,"08-29-2014",NA
+514,"ds.raw","710-1027","CDISCPILOT01","710-1027","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","08-29-2014","11:05","08-29-2014",NA
+515,"ds.raw","710-1045","CDISCPILOT01","710-1045","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"06-03-2013",NA,"06-03-2013",NA
+516,"ds.raw","710-1045","CDISCPILOT01","710-1045","CDISCPILOT","Week 12","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"08-17-2013",NA,"08-17-2013",NA
+517,"ds.raw","710-1045","CDISCPILOT01","710-1045","CDISCPILOT","Week 12","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","08-17-2013","12:30","08-17-2013",NA
+518,"ds.raw","710-1053","CDISCPILOT01","710-1053","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"12-26-2012",NA,"12-26-2012",NA
+519,"ds.raw","710-1053","CDISCPILOT01","710-1053","CDISCPILOT","Week 8","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"02-15-2013",NA,"02-15-2013",NA
+520,"ds.raw","710-1053","CDISCPILOT01","710-1053","CDISCPILOT","Unscheduled 8.2","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","02-26-2013","13:25","02-26-2013",NA
+521,"ds.raw","710-1060","CDISCPILOT01","710-1060","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"01-01-2013",NA,"01-01-2013",NA
+522,"ds.raw","710-1060","CDISCPILOT01","710-1060","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"07-05-2013",NA,"07-05-2013",NA
+523,"ds.raw","710-1060","CDISCPILOT01","710-1060","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","07-05-2013","14:40","07-05-2013",NA
+524,"ds.raw","710-1070","CDISCPILOT01","710-1070","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"09-08-2012",NA,"09-08-2012",NA
+525,"ds.raw","710-1070","CDISCPILOT01","710-1070","CDISCPILOT","Week 16","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","12-28-2012","11:55","12-28-2012",NA
+526,"ds.raw","710-1070","CDISCPILOT01","710-1070","CDISCPILOT","Week 20","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"02-23-2013",NA,"02-23-2013",NA
+527,"ds.raw","710-1077","CDISCPILOT01","710-1077","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"11-17-2013",NA,"11-17-2013",NA
+528,"ds.raw","710-1077","CDISCPILOT01","710-1077","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"05-18-2014",NA,"05-18-2014",NA
+529,"ds.raw","710-1077","CDISCPILOT01","710-1077","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","05-18-2014","09:50","05-18-2014",NA
+530,"ds.raw","710-1078","CDISCPILOT01","710-1078","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"09-17-2013",NA,"09-17-2013",NA
+531,"ds.raw","710-1078","CDISCPILOT01","710-1078","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"03-23-2014",NA,"03-23-2014",NA
+532,"ds.raw","710-1078","CDISCPILOT01","710-1078","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","03-23-2014","16:00","03-23-2014",NA
+533,"ds.raw","710-1083","CDISCPILOT01","710-1083","CDISCPILOT","Screening 1","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","07-09-2013","16:35","07-09-2013","08/02/2013"
+534,"ds.raw","710-1083","CDISCPILOT01","710-1083","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"07-22-2013",NA,"07-22-2013","08/02/2013"
+535,"ds.raw","710-1083","CDISCPILOT01","710-1083","CDISCPILOT","Week 2","DISC1","Subject Disposition","Death","Death",NA,"08-03-2013",NA,"08-02-2013","08/02/2013"
+536,"ds.raw","710-1129","CDISCPILOT01","710-1129","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"03-05-2013",NA,"03-05-2013",NA
+537,"ds.raw","710-1137","CDISCPILOT01","710-1137","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"10-11-2013",NA,"10-11-2013",NA
+538,"ds.raw","710-1137","CDISCPILOT01","710-1137","CDISCPILOT","Week 6","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"11-13-2013",NA,"11-13-2013",NA
+539,"ds.raw","710-1137","CDISCPILOT01","710-1137","CDISCPILOT","Week 6","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","11-13-2013","11:30","11-13-2013",NA
+540,"ds.raw","710-1142","CDISCPILOT01","710-1142","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"10-02-2012",NA,"10-02-2012",NA
+541,"ds.raw","710-1142","CDISCPILOT01","710-1142","CDISCPILOT","Week 4","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"10-23-2012",NA,"10-23-2012",NA
+542,"ds.raw","710-1142","CDISCPILOT01","710-1142","CDISCPILOT","Week 4","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","10-23-2012","15:20","10-23-2012",NA
+543,"ds.raw","710-1149","CDISCPILOT01","710-1149","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"11-16-2013",NA,"11-16-2013",NA
+544,"ds.raw","710-1154","CDISCPILOT01","710-1154","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"03-29-2014",NA,"03-29-2014",NA
+545,"ds.raw","710-1154","CDISCPILOT01","710-1154","CDISCPILOT","Week 6","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"05-09-2014",NA,"05-09-2014",NA
+546,"ds.raw","710-1154","CDISCPILOT01","710-1154","CDISCPILOT","Week 6","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","05-09-2014","10:55","05-09-2014",NA
+547,"ds.raw","710-1166","CDISCPILOT01","710-1166","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"11-30-2012",NA,"11-30-2012",NA
+548,"ds.raw","710-1166","CDISCPILOT01","710-1166","CDISCPILOT","Week 16","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"03-30-2013",NA,"03-30-2013",NA
+549,"ds.raw","710-1166","CDISCPILOT01","710-1166","CDISCPILOT","Week 16","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","03-30-2013","09:35","03-30-2013",NA
+550,"ds.raw","710-1183","CDISCPILOT01","710-1183","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"11-16-2013",NA,"11-16-2013",NA
+551,"ds.raw","710-1183","CDISCPILOT01","710-1183","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"05-17-2014",NA,"05-17-2014",NA
+552,"ds.raw","710-1183","CDISCPILOT01","710-1183","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","05-17-2014","11:55","05-17-2014",NA
+553,"ds.raw","710-1187","CDISCPILOT01","710-1187","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"11-10-2012",NA,"11-10-2012",NA
+554,"ds.raw","710-1187","CDISCPILOT01","710-1187","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"05-12-2013",NA,"05-12-2013",NA
+555,"ds.raw","710-1187","CDISCPILOT01","710-1187","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","05-12-2013","11:05","05-12-2013",NA
+556,"ds.raw","710-1235","CDISCPILOT01","710-1235","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"09-26-2012",NA,"09-26-2012",NA
+557,"ds.raw","710-1235","CDISCPILOT01","710-1235","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"03-27-2013",NA,"03-27-2013",NA
+558,"ds.raw","710-1235","CDISCPILOT01","710-1235","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","03-27-2013","09:35","03-27-2013",NA
+559,"ds.raw","710-1249","CDISCPILOT01","710-1249","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"12-28-2013",NA,"12-28-2013",NA
+560,"ds.raw","710-1249","CDISCPILOT01","710-1249","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"06-28-2014",NA,"06-28-2014",NA
+561,"ds.raw","710-1249","CDISCPILOT01","710-1249","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","06-28-2014","11:05","06-28-2014",NA
+562,"ds.raw","710-1257","CDISCPILOT01","710-1257","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"11-29-2013",NA,"11-29-2013",NA
+563,"ds.raw","710-1264","CDISCPILOT01","710-1264","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"06-13-2013",NA,"06-13-2013",NA
+564,"ds.raw","710-1264","CDISCPILOT01","710-1264","CDISCPILOT","Week 20","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"10-12-2013",NA,"10-12-2013",NA
+565,"ds.raw","710-1264","CDISCPILOT01","710-1264","CDISCPILOT","Week 20","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","10-12-2013","12:18","10-12-2013",NA
+566,"ds.raw","710-1270","CDISCPILOT01","710-1270","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"02-12-2014",NA,"02-12-2014",NA
+567,"ds.raw","710-1270","CDISCPILOT01","710-1270","CDISCPILOT","Week 2","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"03-01-2014",NA,"03-01-2014",NA
+568,"ds.raw","710-1270","CDISCPILOT01","710-1270","CDISCPILOT","Week 2","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","03-01-2014","12:05","03-01-2014",NA
+569,"ds.raw","710-1271","CDISCPILOT01","710-1271","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"09-27-2012",NA,"09-27-2012",NA
+570,"ds.raw","710-1271","CDISCPILOT01","710-1271","CDISCPILOT","Week 6","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","11-08-2012","16:30","11-08-2012",NA
+571,"ds.raw","710-1271","CDISCPILOT01","710-1271","CDISCPILOT","Week 8","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"12-02-2012",NA,"12-02-2012",NA
+572,"ds.raw","710-1278","CDISCPILOT01","710-1278","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"12-24-2012",NA,"12-24-2012",NA
+573,"ds.raw","710-1278","CDISCPILOT01","710-1278","CDISCPILOT","Week 12","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"03-03-2013",NA,"03-03-2013",NA
+574,"ds.raw","710-1278","CDISCPILOT01","710-1278","CDISCPILOT","Week 12","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","03-07-2013","11:45","03-07-2013",NA
+575,"ds.raw","710-1300","CDISCPILOT01","710-1300","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"12-15-2012",NA,"12-15-2012",NA
+576,"ds.raw","710-1300","CDISCPILOT01","710-1300","CDISCPILOT","Week 12","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"02-19-2013",NA,"02-19-2013",NA
+577,"ds.raw","710-1300","CDISCPILOT01","710-1300","CDISCPILOT","Week 12","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","02-19-2013","15:50","02-19-2013",NA
+578,"ds.raw","710-1314","CDISCPILOT01","710-1314","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"04-24-2013",NA,"04-24-2013",NA
+579,"ds.raw","710-1314","CDISCPILOT01","710-1314","CDISCPILOT","Week 4","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","05-23-2013","14:45","05-23-2013",NA
+580,"ds.raw","710-1314","CDISCPILOT01","710-1314","CDISCPILOT","Ambul Ecg Removal","DISC1","Subject Disposition","Patient Refuses to Continue","Withdrawal by Subject",NA,"05-25-2013",NA,"05-25-2013",NA
+581,"ds.raw","710-1315","CDISCPILOT01","710-1315","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"02-27-2013",NA,"02-27-2013",NA
+582,"ds.raw","710-1315","CDISCPILOT01","710-1315","CDISCPILOT","Week 20","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"07-16-2013",NA,"07-16-2013",NA
+583,"ds.raw","710-1315","CDISCPILOT01","710-1315","CDISCPILOT","Week 20","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","07-16-2013","12:05","07-16-2013",NA
+584,"ds.raw","710-1337","CDISCPILOT01","710-1337","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"12-30-2013",NA,"12-30-2013",NA
+585,"ds.raw","710-1354","CDISCPILOT01","710-1354","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"11-11-2012",NA,"11-11-2012",NA
+586,"ds.raw","710-1354","CDISCPILOT01","710-1354","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"05-01-2013",NA,"05-01-2013",NA
+587,"ds.raw","710-1354","CDISCPILOT01","710-1354","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","05-01-2013","14:05","05-01-2013",NA
+588,"ds.raw","710-1358","CDISCPILOT01","710-1358","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"09-17-2012",NA,"09-17-2012",NA
+589,"ds.raw","710-1358","CDISCPILOT01","710-1358","CDISCPILOT","Week 20","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","02-06-2013","11:25","02-06-2013",NA
+590,"ds.raw","710-1358","CDISCPILOT01","710-1358","CDISCPILOT","Week 24","DISC1","Subject Disposition","Caregiver Was Hospitalized;see Comments","Withdrawal by Subject",NA,"03-12-2013",NA,"03-12-2013",NA
+591,"ds.raw","710-1368","CDISCPILOT01","710-1368","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"10-23-2013",NA,"10-23-2013",NA
+592,"ds.raw","710-1368","CDISCPILOT01","710-1368","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"04-24-2014",NA,"04-24-2014",NA
+593,"ds.raw","710-1368","CDISCPILOT01","710-1368","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","04-24-2014","10:10","04-24-2014",NA
+594,"ds.raw","710-1376","CDISCPILOT01","710-1376","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"04-21-2014",NA,"04-21-2014",NA
+595,"ds.raw","710-1380","CDISCPILOT01","710-1380","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"06-02-2013",NA,"06-02-2013",NA
+596,"ds.raw","710-1385","CDISCPILOT01","710-1385","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"10-29-2012",NA,"10-29-2012",NA
+597,"ds.raw","710-1385","CDISCPILOT01","710-1385","CDISCPILOT","Week 16","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"02-18-2013",NA,"02-18-2013",NA
+598,"ds.raw","710-1385","CDISCPILOT01","710-1385","CDISCPILOT","Week 16","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","02-18-2013","13:40","02-18-2013",NA
+599,"ds.raw","710-1408","CDISCPILOT01","710-1408","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"01-05-2013",NA,"01-05-2013",NA
+600,"ds.raw","710-1408","CDISCPILOT01","710-1408","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"07-12-2013",NA,"07-12-2013",NA
+601,"ds.raw","710-1408","CDISCPILOT01","710-1408","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","07-12-2013","14:35","07-12-2013",NA
+602,"ds.raw","710-1443","CDISCPILOT01","710-1443","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"12-13-2013",NA,"12-13-2013",NA
+603,"ds.raw","711-1012","CDISCPILOT01","711-1012","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"04-03-2013",NA,"04-03-2013",NA
+604,"ds.raw","711-1012","CDISCPILOT01","711-1012","CDISCPILOT","Week 4","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"05-02-2013",NA,"05-02-2013",NA
+605,"ds.raw","711-1012","CDISCPILOT01","711-1012","CDISCPILOT","Week 4","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","05-02-2013","09:40","05-02-2013",NA
+606,"ds.raw","711-1012","CDISCPILOT01","711-1012","CDISCPILOT","Retrieval","DISC1","Subject Disposition",NA,NA,"Final Retrieval Visit","09-18-2013",NA,"09-18-2013",NA
+607,"ds.raw","711-1022","CDISCPILOT01","711-1022","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"03-17-2014",NA,"03-17-2014",NA
+608,"ds.raw","711-1036","CDISCPILOT01","711-1036","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"07-29-2012",NA,"07-29-2012",NA
+609,"ds.raw","711-1036","CDISCPILOT01","711-1036","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"02-10-2013",NA,"02-10-2013",NA
+610,"ds.raw","711-1036","CDISCPILOT01","711-1036","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","02-10-2013","10:25","02-10-2013",NA
+611,"ds.raw","711-1143","CDISCPILOT01","711-1143","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"04-03-2013",NA,"04-03-2013",NA
+612,"ds.raw","711-1143","CDISCPILOT01","711-1143","CDISCPILOT","Week 12","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"06-01-2013",NA,"06-01-2013",NA
+613,"ds.raw","711-1143","CDISCPILOT01","711-1143","CDISCPILOT","Week 12","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","06-01-2013","13:11","06-01-2013",NA
+614,"ds.raw","711-1143","CDISCPILOT01","711-1143","CDISCPILOT","Retrieval","DISC1","Subject Disposition",NA,NA,"Final Retrieval Visit","09-22-2013",NA,"09-22-2013",NA
+615,"ds.raw","711-1163","CDISCPILOT01","711-1163","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"11-08-2012",NA,"11-08-2012",NA
+616,"ds.raw","711-1173","CDISCPILOT01","711-1173","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"10-04-2012",NA,"10-04-2012",NA
+617,"ds.raw","711-1226","CDISCPILOT01","711-1226","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"10-24-2013",NA,"10-24-2013",NA
+618,"ds.raw","711-1251","CDISCPILOT01","711-1251","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"02-28-2014",NA,"02-28-2014",NA
+619,"ds.raw","711-1283","CDISCPILOT01","711-1283","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"03-27-2014",NA,"03-27-2014",NA
+620,"ds.raw","711-1284","CDISCPILOT01","711-1284","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"08-05-2013",NA,"08-05-2013",NA
+621,"ds.raw","711-1290","CDISCPILOT01","711-1290","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"12-20-2013",NA,"12-20-2013",NA
+622,"ds.raw","711-1433","CDISCPILOT01","711-1433","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"01-27-2013",NA,"01-27-2013",NA
+623,"ds.raw","711-1433","CDISCPILOT01","711-1433","CDISCPILOT","Week 2","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"02-06-2013",NA,"02-06-2013",NA
+624,"ds.raw","711-1433","CDISCPILOT01","711-1433","CDISCPILOT","Week 2","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","02-06-2013","10:52","02-06-2013",NA
+625,"ds.raw","713-1043","CDISCPILOT01","713-1043","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"09-15-2013",NA,"09-15-2013",NA
+626,"ds.raw","713-1043","CDISCPILOT01","713-1043","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"03-24-2014",NA,"03-24-2014",NA
+627,"ds.raw","713-1043","CDISCPILOT01","713-1043","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","03-24-2014","14:30","03-24-2014",NA
+628,"ds.raw","713-1073","CDISCPILOT01","713-1073","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"03-30-2014",NA,"03-30-2014",NA
+629,"ds.raw","713-1073","CDISCPILOT01","713-1073","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"10-05-2014",NA,"10-05-2014",NA
+630,"ds.raw","713-1073","CDISCPILOT01","713-1073","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","10-05-2014","10:30","10-05-2014",NA
+631,"ds.raw","713-1106","CDISCPILOT01","713-1106","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"10-31-2012",NA,"10-31-2012",NA
+632,"ds.raw","713-1106","CDISCPILOT01","713-1106","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"05-06-2013",NA,"05-06-2013",NA
+633,"ds.raw","713-1106","CDISCPILOT01","713-1106","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","05-06-2013","11:25","05-06-2013",NA
+634,"ds.raw","713-1141","CDISCPILOT01","713-1141","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"05-31-2013",NA,"05-31-2013",NA
+635,"ds.raw","713-1141","CDISCPILOT01","713-1141","CDISCPILOT","Week 6","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"08-06-2013",NA,"08-06-2013",NA
+636,"ds.raw","713-1141","CDISCPILOT01","713-1141","CDISCPILOT","Week 6","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","08-06-2013","12:00","08-06-2013",NA
+637,"ds.raw","713-1179","CDISCPILOT01","713-1179","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"08-09-2013",NA,"08-09-2013",NA
+638,"ds.raw","713-1179","CDISCPILOT01","713-1179","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"02-05-2014",NA,"02-05-2014",NA
+639,"ds.raw","713-1179","CDISCPILOT01","713-1179","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","02-05-2014","15:15","02-05-2014",NA
+640,"ds.raw","713-1209","CDISCPILOT01","713-1209","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"05-27-2013",NA,"05-27-2013",NA
+641,"ds.raw","713-1209","CDISCPILOT01","713-1209","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"11-22-2013",NA,"11-22-2013",NA
+642,"ds.raw","713-1209","CDISCPILOT01","713-1209","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","11-22-2013","10:05","11-22-2013",NA
+643,"ds.raw","713-1256","CDISCPILOT01","713-1256","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"09-19-2012",NA,"09-19-2012",NA
+644,"ds.raw","713-1256","CDISCPILOT01","713-1256","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"03-25-2013",NA,"03-25-2013",NA
+645,"ds.raw","713-1256","CDISCPILOT01","713-1256","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","03-25-2013","10:30","03-25-2013",NA
+646,"ds.raw","713-1269","CDISCPILOT01","713-1269","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"01-27-2014",NA,"01-27-2014",NA
+647,"ds.raw","713-1269","CDISCPILOT01","713-1269","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"07-28-2014",NA,"07-28-2014",NA
+648,"ds.raw","713-1269","CDISCPILOT01","713-1269","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","07-28-2014","14:00","07-28-2014",NA
+649,"ds.raw","713-1448","CDISCPILOT01","713-1448","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"01-19-2014",NA,"01-19-2014",NA
+650,"ds.raw","713-1448","CDISCPILOT01","713-1448","CDISCPILOT","Week 16","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"05-17-2014",NA,"05-17-2014",NA
+651,"ds.raw","713-1448","CDISCPILOT01","713-1448","CDISCPILOT","Week 16","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","05-17-2014","11:00","05-17-2014",NA
+652,"ds.raw","713-1448","CDISCPILOT01","713-1448","CDISCPILOT","Retrieval","DISC1","Subject Disposition",NA,NA,"Final Retrieval Visit","07-27-2014",NA,"07-27-2014",NA
+653,"ds.raw","714-1035","CDISCPILOT01","714-1035","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"04-17-2014",NA,"04-17-2014",NA
+654,"ds.raw","714-1035","CDISCPILOT01","714-1035","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"10-16-2014",NA,"10-16-2014",NA
+655,"ds.raw","714-1035","CDISCPILOT01","714-1035","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","10-16-2014","12:00","10-16-2014",NA
+656,"ds.raw","714-1068","CDISCPILOT01","714-1068","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"08-08-2013",NA,"08-08-2013",NA
+657,"ds.raw","714-1068","CDISCPILOT01","714-1068","CDISCPILOT","Week 12","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"10-16-2013",NA,"10-16-2013",NA
+658,"ds.raw","714-1068","CDISCPILOT01","714-1068","CDISCPILOT","Week 12","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","10-16-2013","15:10","10-16-2013",NA
+659,"ds.raw","714-1195","CDISCPILOT01","714-1195","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"04-26-2013",NA,"04-26-2013",NA
+660,"ds.raw","714-1195","CDISCPILOT01","714-1195","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"10-23-2013",NA,"10-23-2013",NA
+661,"ds.raw","714-1195","CDISCPILOT01","714-1195","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","10-23-2013","10:55","10-23-2013",NA
+662,"ds.raw","714-1288","CDISCPILOT01","714-1288","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"12-04-2013",NA,"12-04-2013",NA
+663,"ds.raw","714-1288","CDISCPILOT01","714-1288","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"06-17-2014",NA,"06-17-2014",NA
+664,"ds.raw","714-1288","CDISCPILOT01","714-1288","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","06-17-2014","13:00","06-17-2014",NA
+665,"ds.raw","714-1375","CDISCPILOT01","714-1375","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"02-26-2013",NA,"02-26-2013",NA
+666,"ds.raw","714-1375","CDISCPILOT01","714-1375","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"09-07-2013",NA,"09-07-2013",NA
+667,"ds.raw","714-1375","CDISCPILOT01","714-1375","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","09-07-2013","13:58","09-07-2013",NA
+668,"ds.raw","714-1425","CDISCPILOT01","714-1425","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"08-15-2013",NA,"08-15-2013",NA
+669,"ds.raw","714-1425","CDISCPILOT01","714-1425","CDISCPILOT","Week 2","DISC1","Subject Disposition","Sponsor Decision (Study or Patient Discontinued by the Sponsor)","Study Terminated by Sponsor",NA,"08-22-2013",NA,"08-22-2013",NA
+670,"ds.raw","714-1425","CDISCPILOT01","714-1425","CDISCPILOT","Week 2","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","08-22-2013","14:55","08-22-2013",NA
+671,"ds.raw","715-1085","CDISCPILOT01","715-1085","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"02-16-2013",NA,"02-16-2013",NA
+672,"ds.raw","715-1085","CDISCPILOT01","715-1085","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"08-18-2013",NA,"08-18-2013",NA
+673,"ds.raw","715-1085","CDISCPILOT01","715-1085","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","08-18-2013","10:22","08-18-2013",NA
+674,"ds.raw","715-1107","CDISCPILOT01","715-1107","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"02-26-2013",NA,"02-26-2013",NA
+675,"ds.raw","715-1107","CDISCPILOT01","715-1107","CDISCPILOT","Week 12","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"05-13-2013",NA,"05-13-2013",NA
+676,"ds.raw","715-1107","CDISCPILOT01","715-1107","CDISCPILOT","Retrieval","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","08-14-2013","09:52","08-14-2013",NA
+677,"ds.raw","715-1107","CDISCPILOT01","715-1107","CDISCPILOT","Retrieval","DISC1","Subject Disposition",NA,NA,"Final Retrieval Visit","08-14-2013",NA,"08-14-2013",NA
+678,"ds.raw","715-1134","CDISCPILOT01","715-1134","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"04-17-2014",NA,"04-17-2014",NA
+679,"ds.raw","715-1155","CDISCPILOT01","715-1155","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"12-13-2013",NA,"12-13-2013",NA
+680,"ds.raw","715-1155","CDISCPILOT01","715-1155","CDISCPILOT","Week 4","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","01-10-2014","08:45","01-10-2014",NA
+681,"ds.raw","715-1155","CDISCPILOT01","715-1155","CDISCPILOT","Week 6","DISC1","Subject Disposition","Caregiver Withdrew from Study","Withdrawal by Subject",NA,"04-26-2014",NA,"04-26-2014",NA
+682,"ds.raw","715-1207","CDISCPILOT01","715-1207","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"11-18-2012",NA,"11-18-2012",NA
+683,"ds.raw","715-1207","CDISCPILOT01","715-1207","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"06-01-2013",NA,"06-01-2013",NA
+684,"ds.raw","715-1207","CDISCPILOT01","715-1207","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","06-01-2013","09:30","06-01-2013",NA
+685,"ds.raw","715-1225","CDISCPILOT01","715-1225","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"01-22-2013",NA,"01-22-2013",NA
+686,"ds.raw","715-1319","CDISCPILOT01","715-1319","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"02-17-2013",NA,"02-17-2013",NA
+687,"ds.raw","715-1319","CDISCPILOT01","715-1319","CDISCPILOT","Week 4","DISC1","Subject Disposition","Too Much Trouble for Caregiver","Withdrawal by Subject",NA,"03-18-2013",NA,"03-18-2013",NA
+688,"ds.raw","715-1319","CDISCPILOT01","715-1319","CDISCPILOT","Week 4","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","03-18-2013","10:28","03-18-2013",NA
+689,"ds.raw","715-1321","CDISCPILOT01","715-1321","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"02-11-2014",NA,"02-11-2014",NA
+690,"ds.raw","715-1321","CDISCPILOT01","715-1321","CDISCPILOT","Week 12","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"04-22-2014",NA,"04-22-2014",NA
+691,"ds.raw","715-1321","CDISCPILOT01","715-1321","CDISCPILOT","Week 12","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","04-22-2014","11:12","04-22-2014",NA
+692,"ds.raw","715-1333","CDISCPILOT01","715-1333","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"06-03-2013",NA,"06-03-2013",NA
+693,"ds.raw","715-1397","CDISCPILOT01","715-1397","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"04-03-2013",NA,"04-03-2013",NA
+694,"ds.raw","715-1397","CDISCPILOT01","715-1397","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"10-03-2013",NA,"10-03-2013",NA
+695,"ds.raw","715-1397","CDISCPILOT01","715-1397","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","10-03-2013","10:50","10-03-2013",NA
+696,"ds.raw","715-1405","CDISCPILOT01","715-1405","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"07-06-2013",NA,"07-06-2013",NA
+697,"ds.raw","715-1405","CDISCPILOT01","715-1405","CDISCPILOT","Week 2","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"07-13-2013",NA,"07-13-2013",NA
+698,"ds.raw","715-1405","CDISCPILOT01","715-1405","CDISCPILOT","Week 2","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","07-13-2013","11:05","07-13-2013",NA
+699,"ds.raw","715-1405","CDISCPILOT01","715-1405","CDISCPILOT","Retrieval","DISC1","Subject Disposition",NA,NA,"Final Retrieval Visit","01-11-2014",NA,"01-11-2014",NA
+700,"ds.raw","715-1407","CDISCPILOT01","715-1407","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"10-24-2012",NA,"10-24-2012",NA
+701,"ds.raw","716-1003","CDISCPILOT01","716-1003","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"03-29-2014",NA,"03-29-2014",NA
+702,"ds.raw","716-1024","CDISCPILOT01","716-1024","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"07-09-2012",NA,"07-09-2012",NA
+703,"ds.raw","716-1024","CDISCPILOT01","716-1024","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"01-20-2013",NA,"01-20-2013",NA
+704,"ds.raw","716-1024","CDISCPILOT01","716-1024","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","01-20-2013","11:10","01-20-2013",NA
+705,"ds.raw","716-1026","CDISCPILOT01","716-1026","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"04-02-2014",NA,"04-02-2014",NA
+706,"ds.raw","716-1026","CDISCPILOT01","716-1026","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"10-16-2014",NA,"10-16-2014",NA
+707,"ds.raw","716-1026","CDISCPILOT01","716-1026","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","10-16-2014","13:35","10-16-2014",NA
+708,"ds.raw","716-1030","CDISCPILOT01","716-1030","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"12-28-2013",NA,"12-28-2013",NA
+709,"ds.raw","716-1030","CDISCPILOT01","716-1030","CDISCPILOT","Week 2","DISC1","Subject Disposition","Pt Kept Removing Patches","Withdrawal by Subject",NA,"01-10-2014",NA,"01-10-2014",NA
+710,"ds.raw","716-1030","CDISCPILOT01","716-1030","CDISCPILOT","Week 2","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","01-10-2014","12:30","01-10-2014",NA
+711,"ds.raw","716-1044","CDISCPILOT01","716-1044","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"04-27-2013",NA,"04-27-2013",NA
+712,"ds.raw","716-1044","CDISCPILOT01","716-1044","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"11-03-2013",NA,"11-03-2013",NA
+713,"ds.raw","716-1044","CDISCPILOT01","716-1044","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","11-03-2013","13:10","11-03-2013",NA
+714,"ds.raw","716-1061","CDISCPILOT01","716-1061","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"02-14-2014",NA,"02-14-2014",NA
+715,"ds.raw","716-1063","CDISCPILOT01","716-1063","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"05-09-2013",NA,"05-09-2013",NA
+716,"ds.raw","716-1063","CDISCPILOT01","716-1063","CDISCPILOT","Week 16","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"08-28-2013",NA,"08-28-2013",NA
+717,"ds.raw","716-1063","CDISCPILOT01","716-1063","CDISCPILOT","Week 16","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","08-28-2013","15:20","08-28-2013",NA
+718,"ds.raw","716-1063","CDISCPILOT01","716-1063","CDISCPILOT","Retrieval","DISC1","Subject Disposition",NA,NA,"Final Retrieval Visit","11-17-2013",NA,"11-17-2013",NA
+719,"ds.raw","716-1071","CDISCPILOT01","716-1071","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"06-08-2013",NA,"06-08-2013",NA
+720,"ds.raw","716-1071","CDISCPILOT01","716-1071","CDISCPILOT","Week 8","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"08-01-2013",NA,"08-01-2013",NA
+721,"ds.raw","716-1071","CDISCPILOT01","716-1071","CDISCPILOT","Week 8","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","08-01-2013","09:30","08-01-2013",NA
+722,"ds.raw","716-1071","CDISCPILOT01","716-1071","CDISCPILOT","Retrieval","DISC1","Subject Disposition",NA,NA,"Final Retrieval Visit","12-16-2013",NA,"12-16-2013",NA
+723,"ds.raw","716-1094","CDISCPILOT01","716-1094","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"12-19-2012",NA,"12-19-2012",NA
+724,"ds.raw","716-1094","CDISCPILOT01","716-1094","CDISCPILOT","Week 6","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"01-26-2013",NA,"01-26-2013",NA
+725,"ds.raw","716-1094","CDISCPILOT01","716-1094","CDISCPILOT","Week 6","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","01-26-2013","11:20","01-26-2013",NA
+726,"ds.raw","716-1094","CDISCPILOT01","716-1094","CDISCPILOT","Retrieval","DISC1","Subject Disposition",NA,NA,"Final Retrieval Visit","06-22-2013",NA,"06-22-2013",NA
+727,"ds.raw","716-1103","CDISCPILOT01","716-1103","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"03-20-2014",NA,"03-20-2014",NA
+728,"ds.raw","716-1103","CDISCPILOT01","716-1103","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"09-20-2014",NA,"09-20-2014",NA
+729,"ds.raw","716-1103","CDISCPILOT01","716-1103","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","09-20-2014","12:10","09-20-2014",NA
+730,"ds.raw","716-1108","CDISCPILOT01","716-1108","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"02-12-2013",NA,"02-12-2013",NA
+731,"ds.raw","716-1108","CDISCPILOT01","716-1108","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"08-10-2013",NA,"08-10-2013",NA
+732,"ds.raw","716-1108","CDISCPILOT01","716-1108","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","08-10-2013","09:55","08-10-2013",NA
+733,"ds.raw","716-1151","CDISCPILOT01","716-1151","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"02-01-2013",NA,"02-01-2013",NA
+734,"ds.raw","716-1151","CDISCPILOT01","716-1151","CDISCPILOT","Week 16","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"06-07-2013",NA,"06-07-2013",NA
+735,"ds.raw","716-1151","CDISCPILOT01","716-1151","CDISCPILOT","Week 16","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","06-07-2013","11:55","06-07-2013",NA
+736,"ds.raw","716-1151","CDISCPILOT01","716-1151","CDISCPILOT","Retrieval","DISC1","Subject Disposition",NA,NA,"Final Retrieval Visit","08-13-2013",NA,"08-13-2013",NA
+737,"ds.raw","716-1157","CDISCPILOT01","716-1157","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"10-02-2013",NA,"10-02-2013",NA
+738,"ds.raw","716-1157","CDISCPILOT01","716-1157","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"04-05-2014",NA,"04-05-2014",NA
+739,"ds.raw","716-1157","CDISCPILOT01","716-1157","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","04-05-2014","11:10","04-05-2014",NA
+740,"ds.raw","716-1160","CDISCPILOT01","716-1160","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"04-05-2013",NA,"04-05-2013",NA
+741,"ds.raw","716-1160","CDISCPILOT01","716-1160","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"10-11-2013",NA,"10-11-2013",NA
+742,"ds.raw","716-1160","CDISCPILOT01","716-1160","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","10-11-2013","13:30","10-11-2013",NA
+743,"ds.raw","716-1167","CDISCPILOT01","716-1167","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"10-08-2012",NA,"10-08-2012",NA
+744,"ds.raw","716-1167","CDISCPILOT01","716-1167","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"04-13-2013",NA,"04-13-2013",NA
+745,"ds.raw","716-1167","CDISCPILOT01","716-1167","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","04-13-2013","11:10","04-13-2013",NA
+746,"ds.raw","716-1177","CDISCPILOT01","716-1177","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"09-02-2014",NA,"09-02-2014",NA
+747,"ds.raw","716-1177","CDISCPILOT01","716-1177","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"03-05-2015",NA,"03-05-2015",NA
+748,"ds.raw","716-1177","CDISCPILOT01","716-1177","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","03-05-2015","14:40","03-05-2015",NA
+749,"ds.raw","716-1189","CDISCPILOT01","716-1189","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"10-09-2012",NA,"10-09-2012",NA
+750,"ds.raw","716-1189","CDISCPILOT01","716-1189","CDISCPILOT","Week 20","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"03-03-2013",NA,"03-03-2013",NA
+751,"ds.raw","716-1189","CDISCPILOT01","716-1189","CDISCPILOT","Week 20","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","03-03-2013","10:45","03-03-2013",NA
+752,"ds.raw","716-1189","CDISCPILOT01","716-1189","CDISCPILOT","Retrieval","DISC1","Subject Disposition",NA,NA,"Final Retrieval Visit","04-08-2013",NA,"04-08-2013",NA
+753,"ds.raw","716-1229","CDISCPILOT01","716-1229","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"02-20-2013",NA,"02-20-2013",NA
+754,"ds.raw","716-1229","CDISCPILOT01","716-1229","CDISCPILOT","Week 6","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"04-02-2013",NA,"04-02-2013",NA
+755,"ds.raw","716-1229","CDISCPILOT01","716-1229","CDISCPILOT","Week 6","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","04-02-2013","11:15","04-02-2013",NA
+756,"ds.raw","716-1244","CDISCPILOT01","716-1244","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"08-15-2013",NA,"08-15-2013",NA
+757,"ds.raw","716-1298","CDISCPILOT01","716-1298","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"04-08-2013",NA,"04-08-2013",NA
+758,"ds.raw","716-1298","CDISCPILOT01","716-1298","CDISCPILOT","Week 12","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"07-06-2013",NA,"07-06-2013",NA
+759,"ds.raw","716-1298","CDISCPILOT01","716-1298","CDISCPILOT","Week 12","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","07-06-2013","10:30","07-06-2013",NA
+760,"ds.raw","716-1298","CDISCPILOT01","716-1298","CDISCPILOT","Retrieval","DISC1","Subject Disposition",NA,NA,"Final Retrieval Visit","10-07-2013",NA,"10-07-2013",NA
+761,"ds.raw","716-1305","CDISCPILOT01","716-1305","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"08-06-2013",NA,"08-06-2013",NA
+762,"ds.raw","716-1308","CDISCPILOT01","716-1308","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"08-28-2013",NA,"08-28-2013",NA
+763,"ds.raw","716-1308","CDISCPILOT01","716-1308","CDISCPILOT","Week 6","DISC1","Subject Disposition","Placed in Nursing Home","Withdrawal by Subject",NA,"10-07-2013",NA,"10-07-2013",NA
+764,"ds.raw","716-1308","CDISCPILOT01","716-1308","CDISCPILOT","Week 6","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","10-07-2013","15:50","10-07-2013",NA
+765,"ds.raw","716-1311","CDISCPILOT01","716-1311","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"05-14-2014",NA,"05-14-2014",NA
+766,"ds.raw","716-1311","CDISCPILOT01","716-1311","CDISCPILOT","Week 20","DISC1","Subject Disposition","Institutionalized","Withdrawal by Subject",NA,"09-30-2014",NA,"09-30-2014",NA
+767,"ds.raw","716-1311","CDISCPILOT01","716-1311","CDISCPILOT","Week 20","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","09-30-2014","09:00","09-30-2014",NA
+768,"ds.raw","716-1311","CDISCPILOT01","716-1311","CDISCPILOT","Retrieval","DISC1","Subject Disposition",NA,NA,"Final Retrieval Visit","11-15-2014",NA,"11-15-2014",NA
+769,"ds.raw","716-1331","CDISCPILOT01","716-1331","CDISCPILOT","Screening 1","DISC1","Subject Disposition","Screen Failure","Screen Failure",NA,"11-25-2013",NA,"11-25-2013",NA
+770,"ds.raw","716-1364","CDISCPILOT01","716-1364","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"07-04-2013",NA,"07-04-2013",NA
+771,"ds.raw","716-1364","CDISCPILOT01","716-1364","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"01-09-2014",NA,"01-09-2014",NA
+772,"ds.raw","716-1364","CDISCPILOT01","716-1364","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","01-09-2014","15:30","01-09-2014",NA
+773,"ds.raw","716-1373","CDISCPILOT01","716-1373","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"12-14-2012",NA,"12-14-2012",NA
+774,"ds.raw","716-1373","CDISCPILOT01","716-1373","CDISCPILOT","Week 12","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"02-28-2013",NA,"02-28-2013",NA
+775,"ds.raw","716-1373","CDISCPILOT01","716-1373","CDISCPILOT","Week 12","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","02-28-2013","10:23","02-28-2013",NA
+776,"ds.raw","716-1418","CDISCPILOT01","716-1418","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"05-05-2013",NA,"05-05-2013",NA
+777,"ds.raw","716-1418","CDISCPILOT01","716-1418","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"11-20-2013",NA,"11-20-2013",NA
+778,"ds.raw","716-1418","CDISCPILOT01","716-1418","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","11-20-2013","11:44","11-20-2013",NA
+779,"ds.raw","716-1441","CDISCPILOT01","716-1441","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"01-22-2014",NA,"01-22-2014",NA
+780,"ds.raw","716-1441","CDISCPILOT01","716-1441","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"07-22-2014",NA,"07-22-2014",NA
+781,"ds.raw","716-1441","CDISCPILOT01","716-1441","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","07-22-2014","10:00","07-22-2014",NA
+782,"ds.raw","716-1447","CDISCPILOT01","716-1447","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"12-16-2013",NA,"12-16-2013",NA
+783,"ds.raw","716-1447","CDISCPILOT01","716-1447","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"06-17-2014",NA,"06-17-2014",NA
+784,"ds.raw","716-1447","CDISCPILOT01","716-1447","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","06-17-2014","12:00","06-17-2014",NA
+785,"ds.raw","717-1004","CDISCPILOT01","717-1004","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"01-14-2014",NA,"01-14-2014",NA
+786,"ds.raw","717-1004","CDISCPILOT01","717-1004","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"07-16-2014",NA,"07-16-2014",NA
+787,"ds.raw","717-1004","CDISCPILOT01","717-1004","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","07-16-2014","13:21","07-16-2014",NA
+788,"ds.raw","717-1109","CDISCPILOT01","717-1109","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"01-27-2014",NA,"01-27-2014",NA
+789,"ds.raw","717-1109","CDISCPILOT01","717-1109","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"07-28-2014",NA,"07-28-2014",NA
+790,"ds.raw","717-1109","CDISCPILOT01","717-1109","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","07-28-2014","10:53","07-28-2014",NA
+791,"ds.raw","717-1174","CDISCPILOT01","717-1174","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"01-22-2013",NA,"01-22-2013",NA
+792,"ds.raw","717-1174","CDISCPILOT01","717-1174","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"07-24-2013",NA,"07-24-2013",NA
+793,"ds.raw","717-1174","CDISCPILOT01","717-1174","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","07-24-2013","15:15","07-24-2013",NA
+794,"ds.raw","717-1201","CDISCPILOT01","717-1201","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"12-19-2013",NA,"12-19-2013",NA
+795,"ds.raw","717-1201","CDISCPILOT01","717-1201","CDISCPILOT","Week 8","DISC1","Subject Disposition","Lack of Efficacy, Patient Caregiver Perception","Lack of Efficacy",NA,"02-21-2014",NA,"02-21-2014",NA
+796,"ds.raw","717-1201","CDISCPILOT01","717-1201","CDISCPILOT","Week 8","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","02-21-2014","11:14","02-21-2014",NA
+797,"ds.raw","717-1344","CDISCPILOT01","717-1344","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"01-11-2014",NA,"01-11-2014",NA
+798,"ds.raw","717-1344","CDISCPILOT01","717-1344","CDISCPILOT","Week 8","DISC1","Subject Disposition","Lack of Efficacy, Patient Caregiver Perception","Lack of Efficacy",NA,"03-14-2014",NA,"03-14-2014",NA
+799,"ds.raw","717-1344","CDISCPILOT01","717-1344","CDISCPILOT","Week 8","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","03-14-2014","14:14","03-14-2014",NA
+800,"ds.raw","717-1357","CDISCPILOT01","717-1357","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"05-01-2013",NA,"05-01-2013",NA
+801,"ds.raw","717-1357","CDISCPILOT01","717-1357","CDISCPILOT","Week 24","DISC1","Subject Disposition","Sponsor Decision (Study or Patient Discontinued by the Sponsor)","Study Terminated by Sponsor",NA,"10-20-2013",NA,"10-20-2013",NA
+802,"ds.raw","717-1357","CDISCPILOT01","717-1357","CDISCPILOT","Week 24","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","10-20-2013","10:52","10-20-2013",NA
+803,"ds.raw","717-1446","CDISCPILOT01","717-1446","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"09-01-2013",NA,"09-01-2013",NA
+804,"ds.raw","717-1446","CDISCPILOT01","717-1446","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"03-04-2014",NA,"03-04-2014",NA
+805,"ds.raw","717-1446","CDISCPILOT01","717-1446","CDISCPILOT","Unscheduled 13.1","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","03-17-2014","09:52","03-17-2014",NA
+806,"ds.raw","718-1066","CDISCPILOT01","718-1066","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"07-07-2013",NA,"07-07-2013",NA
+807,"ds.raw","718-1066","CDISCPILOT01","718-1066","CDISCPILOT","Week 2","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"07-30-2013",NA,"07-30-2013",NA
+808,"ds.raw","718-1066","CDISCPILOT01","718-1066","CDISCPILOT","Week 2","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","07-30-2013","13:30","07-30-2013",NA
+809,"ds.raw","718-1079","CDISCPILOT01","718-1079","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"09-19-2012",NA,"09-19-2012",NA
+810,"ds.raw","718-1079","CDISCPILOT01","718-1079","CDISCPILOT","Week 6","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","10-31-2012","16:30","10-31-2012",NA
+811,"ds.raw","718-1079","CDISCPILOT01","718-1079","CDISCPILOT","Week 6","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"11-06-2012",NA,"11-06-2012",NA
+812,"ds.raw","718-1079","CDISCPILOT01","718-1079","CDISCPILOT","Retrieval","DISC1","Subject Disposition",NA,NA,"Final Retrieval Visit","03-05-2013",NA,"03-05-2013",NA
+813,"ds.raw","718-1101","CDISCPILOT01","718-1101","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"02-17-2013",NA,"02-17-2013",NA
+814,"ds.raw","718-1101","CDISCPILOT01","718-1101","CDISCPILOT","Week 24","DISC1","Subject Disposition","Sponsor Decision (Study or Patient Discontinued by the Sponsor)","Study Terminated by Sponsor",NA,"08-02-2013",NA,"08-02-2013",NA
+815,"ds.raw","718-1101","CDISCPILOT01","718-1101","CDISCPILOT","Week 24","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","08-02-2013","11:30","08-02-2013",NA
+816,"ds.raw","718-1139","CDISCPILOT01","718-1139","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"05-19-2013",NA,"05-19-2013",NA
+817,"ds.raw","718-1139","CDISCPILOT01","718-1139","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"11-17-2013",NA,"11-17-2013",NA
+818,"ds.raw","718-1139","CDISCPILOT01","718-1139","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","11-17-2013","10:30","11-17-2013",NA
+819,"ds.raw","718-1150","CDISCPILOT01","718-1150","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"01-19-2013",NA,"01-19-2013",NA
+820,"ds.raw","718-1150","CDISCPILOT01","718-1150","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"07-31-2013",NA,"07-31-2013",NA
+821,"ds.raw","718-1150","CDISCPILOT01","718-1150","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","07-31-2013","14:05","07-31-2013",NA
+822,"ds.raw","718-1170","CDISCPILOT01","718-1170","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"09-16-2013",NA,"09-16-2013",NA
+823,"ds.raw","718-1170","CDISCPILOT01","718-1170","CDISCPILOT","Week 4","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"11-03-2013",NA,"11-03-2013",NA
+824,"ds.raw","718-1170","CDISCPILOT01","718-1170","CDISCPILOT","Week 4","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","11-03-2013","10:15","11-03-2013",NA
+825,"ds.raw","718-1170","CDISCPILOT01","718-1170","CDISCPILOT","Retrieval","DISC1","Subject Disposition",NA,NA,"Final Retrieval Visit","03-15-2014",NA,"03-15-2014",NA
+826,"ds.raw","718-1172","CDISCPILOT01","718-1172","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"09-21-2013",NA,"09-21-2013",NA
+827,"ds.raw","718-1172","CDISCPILOT01","718-1172","CDISCPILOT","Week 12","DISC1","Subject Disposition","Patient to Begin Course of Aricept","Withdrawal by Subject",NA,"11-29-2013",NA,"11-29-2013",NA
+828,"ds.raw","718-1172","CDISCPILOT01","718-1172","CDISCPILOT","Week 12","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","11-29-2013","15:45","11-29-2013",NA
+829,"ds.raw","718-1172","CDISCPILOT01","718-1172","CDISCPILOT","Retrieval","DISC1","Subject Disposition",NA,NA,"Final Retrieval Visit","03-21-2014",NA,"03-21-2014",NA
+830,"ds.raw","718-1250","CDISCPILOT01","718-1250","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"09-21-2013",NA,"09-21-2013",NA
+831,"ds.raw","718-1250","CDISCPILOT01","718-1250","CDISCPILOT","Week 20","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"02-08-2014",NA,"02-08-2014",NA
+832,"ds.raw","718-1250","CDISCPILOT01","718-1250","CDISCPILOT","Week 20","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","02-08-2014","09:30","02-08-2014",NA
+833,"ds.raw","718-1250","CDISCPILOT01","718-1250","CDISCPILOT","Retrieval","DISC1","Subject Disposition",NA,NA,"Final Retrieval Visit","03-08-2014",NA,"03-08-2014",NA
+834,"ds.raw","718-1254","CDISCPILOT01","718-1254","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"07-10-2013",NA,"07-10-2013",NA
+835,"ds.raw","718-1254","CDISCPILOT01","718-1254","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"01-09-2014",NA,"01-09-2014",NA
+836,"ds.raw","718-1254","CDISCPILOT01","718-1254","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","01-09-2014","11:10","01-09-2014",NA
+837,"ds.raw","718-1328","CDISCPILOT01","718-1328","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"02-01-2013",NA,"02-01-2013",NA
+838,"ds.raw","718-1328","CDISCPILOT01","718-1328","CDISCPILOT","Week 12","DISC1","Subject Disposition","Patient Unable to Tolerate Dermal Irritation at Patch Site","Withdrawal by Subject",NA,"05-01-2013",NA,"05-01-2013",NA
+839,"ds.raw","718-1328","CDISCPILOT01","718-1328","CDISCPILOT","Week 12","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","05-01-2013","15:15","05-01-2013",NA
+840,"ds.raw","718-1328","CDISCPILOT01","718-1328","CDISCPILOT","Retrieval","DISC1","Subject Disposition",NA,NA,"Final Retrieval Visit","07-24-2013",NA,"07-24-2013",NA
+841,"ds.raw","718-1355","CDISCPILOT01","718-1355","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"02-28-2013",NA,"02-28-2013",NA
+842,"ds.raw","718-1355","CDISCPILOT01","718-1355","CDISCPILOT","Week 26","DISC1","Subject Disposition","Protocol Completed","Completed",NA,"08-29-2013",NA,"08-29-2013",NA
+843,"ds.raw","718-1355","CDISCPILOT01","718-1355","CDISCPILOT","Week 26","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","08-29-2013","14:00","08-29-2013",NA
+844,"ds.raw","718-1371","CDISCPILOT01","718-1371","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"04-26-2013",NA,"04-26-2013",NA
+845,"ds.raw","718-1371","CDISCPILOT01","718-1371","CDISCPILOT","Week 12","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","08-01-2013","14:55","08-01-2013",NA
+846,"ds.raw","718-1371","CDISCPILOT01","718-1371","CDISCPILOT","Week 12","DISC1","Subject Disposition","Adverse Event","Adverse Event",NA,"08-08-2013",NA,"08-08-2013",NA
+847,"ds.raw","718-1427","CDISCPILOT01","718-1427","CDISCPILOT","Baseline","DISC1","Subject Disposition","Randomized","Randomized",NA,"12-17-2012",NA,"12-17-2012",NA
+848,"ds.raw","718-1427","CDISCPILOT01","718-1427","CDISCPILOT","Week 8","DISC1","Subject Disposition","Lack of Efficacy, Patient Caregiver Perception","Lack of Efficacy",NA,"02-18-2013",NA,"02-18-2013",NA
+849,"ds.raw","718-1427","CDISCPILOT01","718-1427","CDISCPILOT","Unscheduled 8.2","DISC1","Subject Disposition",NA,NA,"Final Lab Visit","02-18-2013","12:30","02-18-2013",NA
+850,"ds.raw","718-1427","CDISCPILOT01","718-1427","CDISCPILOT","Retrieval","DISC1","Subject Disposition",NA,NA,"Final Retrieval Visit","06-03-2013",NA,"06-03-2013",NA
