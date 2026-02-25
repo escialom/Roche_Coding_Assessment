@@ -2,6 +2,7 @@ library(pharmaverseraw)
 library(sdtm.oak)
 library(dplyr)
 
+
 # Read raw dataset and load study CT
 ds.raw <- pharmaverseraw::ds_raw
 study.ct <- read.csv("question_1_sdtm/sdtm_ct.csv")
@@ -153,7 +154,6 @@ ds <- ds %>%
 
 # Save ds domain
 write.csv(ds, "question_1_sdtm/ds.csv")
-
 
 
 
