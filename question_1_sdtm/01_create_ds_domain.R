@@ -74,16 +74,3 @@ ds <- ds %>%
 
 
 
-# Map the variables involving controlled terminology
-# Only "DSDECOD","DSCAT" involves CT
-ds <- ds %>%
-  assign_ct(
-    raw_dat = ds.raw,
-    raw_var = "IT.DSDECOD",
-    tgt_var = "DSDECOD",
-    ct_spec = study.ct,
-    ct_clst = "C66727",
-    id_vars = oak_id_vars()
-  ) 
-
-
