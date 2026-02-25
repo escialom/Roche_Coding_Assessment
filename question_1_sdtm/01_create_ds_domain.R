@@ -58,14 +58,14 @@ ds <-
 ds <- ds %>% 
   # Map date in ISO 8601 format
   assign_datetime(
-    raw_dat = ds.raw,
+    raw_dat = ds.temp,
     raw_var = "IT.DSSTDAT",
     tgt_var = "DSSTDTC",
     raw_fmt = c("m-d-y"),
     id_vars = oak_id_vars()
   ) %>%
   assign_datetime(
-    raw_dat = ds.raw,
+    raw_dat = ds.temp,
     raw_var = c("DSDTCOL", "DSTMCOL"),
     tgt_var = "DSDTC",
     raw_fmt = c("m-d-y", "H:M"),
@@ -88,9 +88,40 @@ ds <- ds %>%
     ct_spec = study.ct,
     ct_clst = "C74558",
     id_vars = oak_id_vars()
+  ) %>%
+  # Map the variable INSTANCE to VISIT
+  assign_no_ct(
+    raw_dat = ds.temp,
+    raw_var = "INSTANCE",
+    tgt_var = "VISIT",
+    id_vars = oak_id_vars()
   )
 
-# Map the SDTM derived variables
+# Derive a VISITNUM variable from the created VISIT
+visit.map <- ds %>%
+  distinct(VISIT) %>%
+  mutate(VISITNUM = row_number())
+ds <- ds %>%
+  left_join(visit.map, by = "VISIT")
+
+# Infer the DSSTDY variable from the DM raw data
+# Assumption: IC_DT is the sponsor-defined RFSTDTC
+dm.raw <- pharmaverseraw::dm_raw
+dm.raw <- dm.raw %>%
+  mutate(
+    STUDYID = STUDY,
+    USUBJID = paste(STUDY, PATNUM, sep = "-"),
+    RFSTDTC = IC_DT
+  )
+ds <- ds %>%
+  derive_study_day(
+    dm_domain = dm.raw,
+    tgdt = "DSSTDTC",
+    refdt = "RFSTDTC",
+    study_day_var = "DSSTDY"
+  )
+
+# Map the rest of SDTM derived variables
 ds <- ds %>%
   dplyr::mutate(
     STUDYID = ds.raw$STUDY,
@@ -103,22 +134,8 @@ ds <- ds %>%
     tgt_var = "DSSEQ",
     rec_vars = c("USUBJID", "DSTERM")
   ) %>%
-  derive_study_day(
-    sdtm_in = .,
-    dm_domain = dm,
-    tgdt = "AESTDTC",
-    refdt = "RFXSTDTC",
-    study_day_var = "AESTDY"
-  ) %>%
-  derive_study_day(
-    sdtm_in = .,
-    dm_domain = dm,
-    tgdt = "AEENDTC",
-    refdt = "RFXENDTC",
-    study_day_var = "AEENDY"
-  ) %>%
   select(
-    "STUDYID", "DOMAIN", "USUBJID", "AESEQ", "AETERM", "AELLT", "AELLTCD", "AEDECOD", "AEPTCD", "AEHLT", "AEHLTCD", "AEHLGT",
+    "STUDYID", "DOMAIN", "USUBJID", "DSSEQ", "AETERM", "AELLT", "AELLTCD", "AEDECOD", "AEPTCD", "AEHLT", "AEHLTCD", "AEHLGT",
     "AEHLGTCD", "AEBODSYS", "AEBDSYCD", "AESOC", "AESOCCD", "AESEV", "AESER", "AEACN", "AEREL", "AEOUT", "AESCAN", "AESCONG",
     "AESDISAB", "AESDTH", "AESHOSP", "AESLIFE", "AESOD", "AEDTC", "AESTDTC", "AEENDTC", "AESTDY", "AEENDY"
   )
