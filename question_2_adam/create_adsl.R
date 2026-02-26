@@ -26,8 +26,7 @@ adsl <- dm %>%
   select(-DOMAIN)
 
 #### Derive AGEGR9 & AGEGR9N ####
-# we use the exprs function from tidyr to build the definition later used by
-# derive_vars_cat.
+# Define categorization rules for AGEGR9 and AGEGR9N.
 agegr9.lookup <- exprs(
   ~condition,            ~AGEGR9, ~AGEGR9N,
   is.na(AGE),          "Missing",        4,
@@ -55,8 +54,7 @@ ARM.groups <- unique(adsl$ARM)
 adsl <- adsl %>%
   dplyr::mutate(
     ITTFL = case_when(
-      # ARM.groups[4] = "Screen Failure" 
-      ARM == ARM.groups[4] ~ "N",
+      ARM == "Screen Failure"  ~ "N",
       TRUE ~ "Y"
     )
   )
