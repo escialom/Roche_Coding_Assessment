@@ -113,7 +113,7 @@ adsl <- adsl %>%
   ) %>%
   mutate(
     # We need this variable to be a date for later sorting (creation of LSTAVLDT)
-    TRTEDTM = as.Date(TRTEDTM)
+    TRTEDT = as.Date(TRTEDTM)
   )
 
 
@@ -206,10 +206,10 @@ adsl.temp <- adsl.temp %>%
     mode = "last"
   )
 
-# Get the latest date out of "TRTEDTM", "last.VSDTC", "last.AESTDTC", "last.DSDTC"
+# Get the latest date out of "TRTEDT", "last.VSDTC", "last.AESTDTC", "last.DSDTC"
 adsl <- adsl.temp %>%
   rowwise() %>%
   mutate(
-    LSTAVLDT = max(c(TRTEDTM, last.VSDTC, last.AESTDTC, last.DSDTC), na.rm = TRUE)
+    LSTAVLDT = max(c(TRTEDT, last.VSDTC, last.AESTDTC, last.DSDTC), na.rm = TRUE)
   ) %>%
   ungroup()
