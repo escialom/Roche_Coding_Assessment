@@ -9,24 +9,29 @@ library(lubridate)
 library(stringr)
 
 
-# Load SDTM data and convert blanks to NA
+# Load SDTM source domains from {pharmaversesdtm} and standardize missingness:
+# convert any blank character values ("") to NA to simplify downstream logic.
 dm <- pharmaversesdtm::dm
 ds <- pharmaversesdtm::ds
 ex <- pharmaversesdtm::ex
 ae <- pharmaversesdtm::ae
 vs <- pharmaversesdtm::vs
+
 dm <- convert_blanks_to_na(dm)
 ds <- convert_blanks_to_na(ds)
 ex <- convert_blanks_to_na(ex)
 ae <- convert_blanks_to_na(ae)
 vs <- convert_blanks_to_na(vs)
 
-# Set DM as ADSL object and remove DOMAIN variable
+# Initialize ADSL from SDTM DM (one record per subject). Remove DOMAIN because
+# it is not to be carried into ADaM which are subject-level datasets.
 adsl <- dm %>%
   select(-DOMAIN)
 
 #### Derive AGEGR9 & AGEGR9N ####
-# Define categorization rules for AGEGR9 and AGEGR9N.
+# Define a lookup table for categorizing analysis age (AGE) into AGEGR9 (text)
+# and AGEGR9N (numeric). Conditions are evaluated top-to-bottom by
+# derive_vars_cat(); the first TRUE condition assigns the corresponding values.
 agegr9.lookup <- exprs(
   ~condition,            ~AGEGR9, ~AGEGR9N,
   is.na(AGE),          "Missing",        4,
@@ -35,8 +40,7 @@ agegr9.lookup <- exprs(
   !is.na(AGE),             ">50",        3
 )
 
-# Create variables AGEGR9 & AGEGR9N from ADSL according to the conditions set in
-# agegr9.lookup
+# Apply the lookup rules to derive AGEGR9 and AGEGR9N on the ADSL dataset.
 adsl <- derive_vars_cat(
   dataset = adsl,
   definition = agegr9.lookup
@@ -44,8 +48,9 @@ adsl <- derive_vars_cat(
 
 
 #### Derive ITTFL ####
-# To know whether the subject has been randomized, we first have to check if
-# there are any missing values and/or what are the type of values in ARM
+# Derive the Intent-to-Treat population flag. NOTE: the assessment spec defines
+# ITTFL as "Y" when ARM is populated and "N" otherwise. Here, we additionally
+# treat ARM == "Screen Failure" as not randomized (study-specific assumption).
 any(is.na(adsl$ARM)) # No missing values
 ARM.groups <- unique(adsl$ARM) 
 
@@ -61,9 +66,13 @@ adsl <- adsl %>%
 
 
 #### Derive TRTSDTM/TRTSTMF ####
-# Get the subset of EX dataset having valid cases. Detect the valid dates
+# Prepare EX records eligible for treatment start/end derivations:
+# - Keep only "valid dose" records per spec (EXDOSE > 0 OR placebo with EXDOSE == 0).
+# - Convert EXSTDTC to a datetime (TRTDTM) and a time imputation flag (TRTTMF).
+# - Do not impute missing date components (highest_imputation = "h" enforces complete date);
+#   impute missing/partial time components to 00:00:00 (time_imputation = "first").
+# - Do not set the time imputation flag when only seconds are missing.
 ex.valid <- ex %>%
-  # Valid dosis if EXDOSE > 0 or if EXDOSE == 0 and EXTRT is "PLACEBO"
   filter(EXDOSE > 0 | (EXDOSE == 0 & stringr::str_detect(toupper(EXTRT), "PLACEBO"))) %>%
   derive_vars_dtm(
     new_vars_prefix = "TRT",
@@ -74,148 +83,123 @@ ex.valid <- ex %>%
     time_imputation = "first",
     # Will create an imputation flag in a TRTSTMF variable
     flag_imputation = "time",
-    # No flag in TRTSTMF if seconds are missing
+    # No flag in TRTTMF if seconds are missing
     ignore_seconds_flag = TRUE
   ) %>%
-  # Only the valid dates are taken
+  # Retain only records with complete date part (TRTDTM non-missing).
   filter(!is.na(TRTDTM)) 
 
-# Merge back into adsl
+# Merge first and last qualifying exposure datetimes into ADSL:
+# - TRTSDTM/TRTSTMF: earliest TRTDTM per subject (mode = "first")
+# - TRTEDTM: latest TRTDTM per subject (mode = "last")
+# Secondary ordering by EXSEQ provides deterministic tie-breaking when datetimes match.
 adsl <- adsl %>%
   derive_vars_merged(
     dataset_add = ex.valid,
-    # Use subject variables to merge back to adsl
     by_vars = exprs(STUDYID, USUBJID),
     new_vars = exprs(
       TRTSDTM = TRTDTM,
       TRTSTMF = TRTTMF
     ),
-    # We use 2 expressions because it prevents ties in the case a subject has more
-    # than 1 exposure record
     order = exprs(TRTDTM, EXSEQ),
-    # Takes the first observation
     mode = "first"
   ) %>%
-  # We also creat a TRTEDTM variable which is the Datetime of Last Exposure to Treatment
-  # of the valid doses. We will need it later to create the LSTAVLDT variable
   derive_vars_merged(
     dataset_add = ex.valid,
-    # Use subject variables to merge back to adsl
     by_vars = exprs(STUDYID, USUBJID),
-    # TRTEDTM is taken from the same exposure datetime variable (EXSTDTC-derived)
+    # TRTEDTM is derived from the same exposure-start datetime (EXSTDTC-derived TRTDTM),
+    # selecting the latest qualifying record per subject.
     new_vars = exprs(TRTEDTM = TRTDTM),
-    # We use 2 expressions because it prevents ties in the case a subject has more
-    # than 1 exposure record
     order = exprs(TRTDTM, EXSEQ),
-    # Takes the last observation after ordering
     mode = "last"
   ) %>%
   mutate(
-    # We need this variable to be a date for later sorting (creation of LSTAVLDT)
+    # Datepart of TRTEDTM (used later for LSTAVLDT derivation).
     TRTEDT = as.Date(TRTEDTM)
   )
 
 
 #### Derive LSTAVLDT ####
+# LSTAVLDT is the last known alive date per subject, defined as the maximum of:
+# (1) last complete VSDTC date with a valid VS result,
+# (2) last complete AE onset date (AESTDTC),
+# (3) last complete disposition date (DSSTDTC),
+# (4) datepart of TRTEDTM (last qualifying exposure datetime).
 
-# 1) Get the valid observations for the first condition
+# (1) Vitals: keep records with a non-missing result (VSSTRESN/VSSTRESC not both missing),
+# derive the date part of VSDTC (VSDT), keep complete dates only, then select the latest VSDT per subject.
 vs.dt <- vs %>%
-  # Either VSSTRESN or VSSTRESC can be missing but not both
   filter(!(is.na(VSSTRESN) & is.na(VSSTRESC))) %>%
-  # Valid date if YYYY-MM-DD, else NA
-  # Get valid date parts of AESTDTC from the VS sdtm dataset
   derive_vars_dt(
     dtc = VSDTC,
-    # A variable VSDT will be created with valid dates and NA elsewhere
     new_vars_prefix = "VS",
-    # If the day is missing, no imputation beyond that so it will return NA
     highest_imputation = "D",
-    # Set to none because we don't want any -TMF variable
     flag_imputation = "none"
   ) %>%
-  # Only the valid dates are taken
   filter(!is.na(VSDT)) 
 
-# Merge the last complete date of vital assessment into a temporary adsl
-# dataframe
+# Start a temporary working dataset by adding the three “last observed date” candidates
+# (VS, AE, DS) to ADSL. Only these temporary variables will be used to compute LSTAVLDT.
 adsl.temp <- adsl %>%
   derive_vars_merged(
     dataset_add = vs.dt,
-    # Use subject variables to merge back to adsl.temp
     by_vars = exprs(STUDYID, USUBJID),
     new_vars = exprs(last.VSDTC = VSDT),
-    # We use 2 expressions for ordering because it prevents ties in the case a 
-    # subject has more than 1 record
     order = exprs(VSDT, VSSEQ),
-    # Takes the first observation
     mode = "last"
   )
 
-# 2) Get the valid observations for the second condition
-# Get valid date parts of AESTDTC from the AE sdtm dataset
+# (2) Adverse events: derive the date part of AESTDTC (AEDT), keep complete dates only,
+# then select the latest AEDT per subject.
 ae.dt <- ae %>%
   derive_vars_dt(
     dtc = AESTDTC,
-    # A variable AEDT will be created with valid dates and NA elsewhere
     new_vars_prefix = "AE",
-    # If the day is missing, no imputation beyond that so it will return NA
     highest_imputation = "D",
-    # Set to none because we don't want any -TMF variable
     flag_imputation = "none"
   ) %>%
   filter(!is.na(AEDT))
 
-# Merge the last date from AEDTC
 adsl.temp <- adsl.temp %>%
   derive_vars_merged(
     dataset_add = ae.dt,
-    # Use subject variables to merge back to adsl.temp
     by_vars = exprs(STUDYID, USUBJID),
     new_vars = exprs(last.AESTDTC = AEDT),
-    # We use 2 expressions because it prevents ties in the case a subject has more
-    # than 1 exposure record
     order = exprs(AEDT, AESEQ),
-    # Takes the first observation
     mode = "last"
   )
 
 
-# 3) Get the valid observations for the third condition
-# Get valid date parts of DSSTDTC from the DS sdtm dataset
+# (3) Disposition: derive the date part of DSSTDTC (DSDT), keep complete dates only,
+# then select the latest DSDT per subject.
 ds.dt <- ds %>%
   derive_vars_dt(
     dtc = DSSTDTC,
-    # A variable DSDT will be created with valid dates and NA elsewhere
     new_vars_prefix = "DS",
-    # If the day is missing, no imputation beyond that so it will return NA
     highest_imputation = "D",
-    # Set to none because we don't want any -TMF variable
     flag_imputation = "none"
   )%>%
   filter(!is.na(DSDT))
 
-# Merge the last date from DSDTC
 adsl.temp <- adsl.temp %>%
   derive_vars_merged(
     dataset_add = ds.dt,
-    # Use subject variables to merge back to adsl.temp
     by_vars = exprs(STUDYID, USUBJID),
     new_vars = exprs(last.DSDTC = DSDT),
-    # We use 2 expressions because it prevents ties in the case a subject has more
-    # than 1 exposure record
     order = exprs(DSDT, DSSEQ),
-    # Takes the last observation
     mode = "last"
   )
 
-# Get the latest date out of "TRTEDT", "last.VSDTC", "last.AESTDTC", "last.DSDTC"
+# Compute LSTAVLDT as the maximum across the four candidate dates for each subject.
+# (TRTEDT, last.VSDTC, last.AESTDTC, last.DSDTC)
 LSTAVLDT_temp <- adsl.temp %>%
   mutate(TRTEDT = as.Date(TRTEDTM)) %>%
   mutate(
     LSTAVLDT = pmax(TRTEDT, last.VSDTC, last.AESTDTC, last.DSDTC, na.rm = TRUE)
   ) %>%
   select(STUDYID, USUBJID, LSTAVLDT)
-# Merge the values into adsl
+
+# Merge LSTAVLDT into the final ADSL (retain all existing ADSL variables and add LSTAVLDT).
 adsl <- adsl %>%
   derive_vars_merged(
     dataset_add = LSTAVLDT_temp,
@@ -224,5 +208,5 @@ adsl <- adsl %>%
   )
 
 
-# Save ADSL
+# Save derived ADSL
 write.csv(ds, "question_2_adam/adsl.csv")
