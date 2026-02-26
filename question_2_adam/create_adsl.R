@@ -209,4 +209,4 @@ adsl <- adsl %>%
 
 
 # Save derived ADSL
-write.csv(ds, "question_2_adam/adsl.csv")
+write.csv(adsl, "question_2_adam/adsl.csv")
