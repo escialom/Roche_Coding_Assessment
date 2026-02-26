@@ -85,7 +85,7 @@ ex.valid <- ex %>%
     flag_imputation = "time",
     # No flag in TRTSTMF if seconds are missing
     ignore_seconds_flag = TRUE
-  )
+  ) 
 
 # Merge back into adsl
 adsl <- adsl %>%
@@ -102,6 +102,108 @@ adsl <- adsl %>%
     order = exprs(TRTSDTM, EXSEQ),
     # Takes the first observation
     mode = "first"
+  ) %>%
+  # We also creat a TRTEDTM variable which is the Datetime of Last Exposure to Treatment
+  # of the valid doses. We will need it later to create the LSTAVLDT variable
+  derive_vars_merged(
+    dataset_add = ex.valid,
+    # Use subject variables to merge back to adsl
+    by_vars = exprs(STUDYID, USUBJID),
+    new_vars = exprs(TRTEDTM = TRTSDTM),
+    # We use 2 expressions because it prevents ties in the case a subject has more
+    # than 1 exposure record
+    order = exprs(TRTSDTM, EXSEQ),
+    # Takes the last observation after ordering
+    mode = "last"
   )
 
+
+#### Derive LSTAVLDT ####
+
+# 1) Get the valid observations for the first condition
+vs.dt <- vs %>%
+  # Either VSSTRESN or VSSTRESC can be missing but not both
+  filter(
+    !is.na(VSSTRESN) & !is.na(VSSTRESC)
+    )
+# Valid date if YYYY-MM-DD, else NA
+# Get valid date parts of AESTDTC from the AE sdtm dataset
+vs.dt <- vs.dt %>%
+derive_vars_dt(
+  dtc = VSDTC,
+  # A variable VSDT will be created with valid dates and NA elsewhere
+  new_vars_prefix = "VS",
+  # If the day is missing, no imputation beyond that so it will return NA
+  highest_imputation = "D",
+  # Set to none because we don't want any -TMF variable
+  flag_imputation = "none"
+)
+# Merge the last complete date of vital assessment into a temporary adsl
+# dataframe
+adsl.temp <- adsl
+adsl.temp <- adsl.temp %>%
+  derive_vars_merged(
+    dataset_add = vs.dt,
+    # Use subject variables to merge back to adsl.temp
+    by_vars = exprs(STUDYID, USUBJID),
+    new_vars = exprs(last.VSDTC = VSDT),
+    # We use 2 expressions for ordering because it prevents ties in the case a 
+    # subject has more than 1 record
+    order = exprs(VSDT, VSSEQ),
+    # Takes the first observation
+    mode = "last"
+  )
+
+# 2) Get the valid observations for the second condition
+# Get valid date parts of AESTDTC from the AE sdtm dataset
+ae.dt <- ae %>%
+  derive_vars_dt(
+    dtc = AESTDTC,
+    # A variable AEDT will be created with valid dates and NA elsewhere
+    new_vars_prefix = "AE",
+    # If the day is missing, no imputation beyond that so it will return NA
+    highest_imputation = "D",
+    # Set to none because we don't want any -TMF variable
+    flag_imputation = "none"
+  )
+# Merge the last date from AEDTC
+adsl.temp <- adsl.temp %>%
+  derive_vars_merged(
+    dataset_add = ae.dt,
+    # Use subject variables to merge back to adsl.temp
+    by_vars = exprs(STUDYID, USUBJID),
+    new_vars = exprs(last.AESTDTC = AEDT),
+    # We use 2 expressions because it prevents ties in the case a subject has more
+    # than 1 exposure record
+    order = exprs(AEDT, AESEQ),
+    # Takes the first observation
+    mode = "last"
+  )
+
+
+# 3) Get the valid observations for the third condition
+# Get valid date parts of DSSTDTC from the DS sdtm dataset
+ds.dt <- ds %>%
+  derive_vars_dt(
+    dtc = DSSTDTC,
+    # A variable DSDT will be created with valid dates and NA elsewhere
+    new_vars_prefix = "DS",
+    # If the day is missing, no imputation beyond that so it will return NA
+    highest_imputation = "D",
+    # Set to none because we don't want any -TMF variable
+    flag_imputation = "none"
+  )
+# Merge the last date from DSDTC
+adsl.temp <- adsl.temp %>%
+  derive_vars_merged(
+    dataset_add = ds.dt,
+    # Use subject variables to merge back to adsl.temp
+    by_vars = exprs(STUDYID, USUBJID),
+    new_vars = exprs(last.DSDTC = DSDT),
+    # We use 2 expressions because it prevents ties in the case a subject has more
+    # than 1 exposure record
+    order = exprs(DSDT, DSSEQ),
+    # Takes the last observation
+    mode = "last"
+  )
 
