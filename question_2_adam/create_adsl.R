@@ -68,7 +68,7 @@ ex.valid <- ex %>%
   # Valid dosis if EXDOSE > 0 or if EXDOSE == 0 and EXTRT is "PLACEBO"
   filter(EXDOSE > 0 | (EXDOSE == 0 & stringr::str_detect(toupper(EXTRT), "PLACEBO"))) %>%
   derive_vars_dtm(
-    new_vars_prefix = "TRTS",
+    new_vars_prefix = "TRT",
     dtc = EXSTDTC,
     # We do not allow imputation higher than the level of hour
     highest_imputation = "h",
@@ -80,7 +80,7 @@ ex.valid <- ex %>%
     ignore_seconds_flag = TRUE
   ) %>%
   # Only the valid dates are taken
-  filter(!is.na(TRTSDTM)) 
+  filter(!is.na(TRTDTM)) 
 
 # Merge back into adsl
 adsl <- adsl %>%
@@ -89,12 +89,12 @@ adsl <- adsl %>%
     # Use subject variables to merge back to adsl
     by_vars = exprs(STUDYID, USUBJID),
     new_vars = exprs(
-      TRTSDTM = TRTSDTM,
-      TRTSTMF = TRTSTMF
+      TRTSDTM = TRTDTM,
+      TRTSTMF = TRTTMF
     ),
     # We use 2 expressions because it prevents ties in the case a subject has more
     # than 1 exposure record
-    order = exprs(TRTSDTM, EXSEQ),
+    order = exprs(TRTDTM, EXSEQ),
     # Takes the first observation
     mode = "first"
   ) %>%
@@ -104,10 +104,11 @@ adsl <- adsl %>%
     dataset_add = ex.valid,
     # Use subject variables to merge back to adsl
     by_vars = exprs(STUDYID, USUBJID),
-    new_vars = exprs(TRTEDTM = TRTSDTM),
+    # TRTEDTM is taken from the same exposure datetime variable (EXSTDTC-derived)
+    new_vars = exprs(TRTEDTM = TRTDTM),
     # We use 2 expressions because it prevents ties in the case a subject has more
     # than 1 exposure record
-    order = exprs(TRTSDTM, EXSEQ),
+    order = exprs(TRTDTM, EXSEQ),
     # Takes the last observation after ordering
     mode = "last"
   ) %>%
@@ -122,25 +123,24 @@ adsl <- adsl %>%
 # 1) Get the valid observations for the first condition
 vs.dt <- vs %>%
   # Either VSSTRESN or VSSTRESC can be missing but not both
-  filter(
-    !is.na(VSSTRESN) & !is.na(VSSTRESC)
-    )
-# Valid date if YYYY-MM-DD, else NA
-# Get valid date parts of AESTDTC from the AE sdtm dataset
-vs.dt <- vs.dt %>%
-derive_vars_dt(
-  dtc = VSDTC,
-  # A variable VSDT will be created with valid dates and NA elsewhere
-  new_vars_prefix = "VS",
-  # If the day is missing, no imputation beyond that so it will return NA
-  highest_imputation = "D",
-  # Set to none because we don't want any -TMF variable
-  flag_imputation = "none"
-)
+  filter(!(is.na(VSSTRESN) & is.na(VSSTRESC))) %>%
+  # Valid date if YYYY-MM-DD, else NA
+  # Get valid date parts of AESTDTC from the VS sdtm dataset
+  derive_vars_dt(
+    dtc = VSDTC,
+    # A variable VSDT will be created with valid dates and NA elsewhere
+    new_vars_prefix = "VS",
+    # If the day is missing, no imputation beyond that so it will return NA
+    highest_imputation = "D",
+    # Set to none because we don't want any -TMF variable
+    flag_imputation = "none"
+  ) %>%
+  # Only the valid dates are taken
+  filter(!is.na(VSDT)) 
+
 # Merge the last complete date of vital assessment into a temporary adsl
 # dataframe
-adsl.temp <- adsl
-adsl.temp <- adsl.temp %>%
+adsl.temp <- adsl %>%
   derive_vars_merged(
     dataset_add = vs.dt,
     # Use subject variables to merge back to adsl.temp
@@ -164,7 +164,9 @@ ae.dt <- ae %>%
     highest_imputation = "D",
     # Set to none because we don't want any -TMF variable
     flag_imputation = "none"
-  )
+  ) %>%
+  filter(!is.na(AEDT))
+
 # Merge the last date from AEDTC
 adsl.temp <- adsl.temp %>%
   derive_vars_merged(
@@ -191,7 +193,9 @@ ds.dt <- ds %>%
     highest_imputation = "D",
     # Set to none because we don't want any -TMF variable
     flag_imputation = "none"
-  )
+  )%>%
+  filter(!is.na(DSDT))
+
 # Merge the last date from DSDTC
 adsl.temp <- adsl.temp %>%
   derive_vars_merged(
@@ -207,9 +211,20 @@ adsl.temp <- adsl.temp %>%
   )
 
 # Get the latest date out of "TRTEDT", "last.VSDTC", "last.AESTDTC", "last.DSDTC"
-adsl <- adsl.temp %>%
-  rowwise() %>%
+LSTAVLDT_temp <- adsl.temp %>%
+  mutate(TRTEDT = as.Date(TRTEDTM)) %>%
   mutate(
-    LSTAVLDT = max(c(TRTEDT, last.VSDTC, last.AESTDTC, last.DSDTC), na.rm = TRUE)
+    LSTAVLDT = pmax(TRTEDT, last.VSDTC, last.AESTDTC, last.DSDTC, na.rm = TRUE)
   ) %>%
-  ungroup()
+  select(STUDYID, USUBJID, LSTAVLDT)
+# Merge the values into adsl
+adsl <- adsl %>%
+  derive_vars_merged(
+    dataset_add = LSTAVLDT_temp,
+    by_vars = exprs(STUDYID, USUBJID),
+    new_vars = exprs(LSTAVLDT = LSTAVLDT)
+  )
+
+
+# Save ADSL
+write.csv(ds, "question_2_adam/adsl.csv")
