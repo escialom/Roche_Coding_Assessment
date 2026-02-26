@@ -63,29 +63,24 @@ adsl <- adsl %>%
 
 
 #### Derive TRTSDTM/TRTSTMF ####
-# Get the subset of EX dataset having valid casesDetect the valid dates
+# Get the subset of EX dataset having valid cases. Detect the valid dates
 ex.valid <- ex %>%
-  filter(
-    # Valid dosis if EXDOSE > 0 or if EXDOSE == 0 and EXTRT is "PLACEBO"
-    EXDOSE > 0 | (EXDOSE == 0 & stringr::str_detect(toupper(EXTRT), "PLACEBO"))
-    ) %>%
-  # Valid date if YYYY-MM-DD
-  filter(
-    stringr::str_detect(EXSTDTC, "^\\d{4}-\\d{2}-\\d{2}")
-    ) %>%
-  # From this valid subset, impute time if needed
+  # Valid dosis if EXDOSE > 0 or if EXDOSE == 0 and EXTRT is "PLACEBO"
+  filter(EXDOSE > 0 | (EXDOSE == 0 & stringr::str_detect(toupper(EXTRT), "PLACEBO"))) %>%
   derive_vars_dtm(
     new_vars_prefix = "TRTS",
     dtc = EXSTDTC,
     # We do not allow imputation higher than the level of hour
-    highest_imputation = "h",   
+    highest_imputation = "h",
     # Imputes the earliest missing time
     time_imputation = "first",
-    # For the TRTSTMF variable
+    # Will create an imputation flag in a TRTSTMF variable
     flag_imputation = "time",
     # No flag in TRTSTMF if seconds are missing
     ignore_seconds_flag = TRUE
-  ) 
+  ) %>%
+  # Only the valid dates are taken
+  filter(!is.na(TRTSDTM)) 
 
 # Merge back into adsl
 adsl <- adsl %>%
