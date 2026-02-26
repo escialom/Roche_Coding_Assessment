@@ -7,66 +7,51 @@ library(dplyr)
 ds.raw <- pharmaverseraw::ds_raw
 study.ct <- read.csv("question_1_sdtm/sdtm_ct.csv")
 
+
 # Prep the mapping of variables
 # Create temporary df to enable direct mapping of DSTERM, DSDECOD and DSCAT
-ds.temp <- ds.raw
-ds.temp <- ds.temp %>%
-  # Creates a temp DSDECOD variable with the value of IT.DSDECOD if OTHERSP is
-  # null, and with the value of OTHERSP if any
-  dplyr::mutate(
-    TEMP.DSDECOD = case_when(
-      is.na(OTHERSP) ~ IT.DSDECOD,
-      TRUE ~ OTHERSP
-    )
-  ) %>%
-  # Creates a temp DSTERM variable which is equal to value in OTHERSP if provided
-  # TODO: Maybe we don't need that and we map directly
-  dplyr::mutate(
-    TEMP.DSTERM = case_when(
-      is.na(OTHERSP) ~ IT.DSTERM,
-      TRUE ~ OTHERSP
-    )
-  ) %>%
-  # Creates a temp DSCAT variable to be "PROTOCOL MILESTONE", "OTHER EVENT" or
-  # "DISPOSITION EVENT"
-  dplyr::mutate(
+ds.prep <- ds.raw %>%
+  mutate(
+    TEMP.DSDECOD = if_else(is.na(OTHERSP), IT.DSDECOD, OTHERSP),
+    TEMP.DSTERM  = if_else(is.na(OTHERSP), IT.DSTERM,  OTHERSP),
+    # Creates a temp DSCAT variable to be "PROTOCOL MILESTONE", "OTHER EVENT" or
+    # "DISPOSITION EVENT"
     TEMP.DSCAT = case_when(
-      IT.DSDECOD == "Randomized" & is.na(OTHERSP)  ~ "PROTOCOL MILESTONE",
-      !is.na(OTHERSP) ~ "OTHER EVENT",
-      TRUE ~ "DISPOSITION EVENT"
+      IT.DSDECOD == "Randomized" & is.na(OTHERSP) ~ "PROTOCOL MILESTONE",
+      !is.na(OTHERSP)                             ~ "OTHER EVENT",
+      TRUE                                        ~ "DISPOSITION EVENT"
     )
-  )
-
-# Create oak IDs to enable topic variable mapping
-ds.temp <- ds.temp %>%
+  ) %>%
+  # Create oak IDs to enable topic variable mapping
   generate_oak_id_vars(
     pat_var = "PATNUM",
     raw_src = "ds.raw"
   )
 
+
 # Map the topic variable
 # Reflects the collected observation, not the standardized term
 # No ct because this is the verbatim
-ds <-
-  assign_no_ct(
-    raw_dat = ds.temp,
-    raw_var = "TEMP.DSTERM",
-    tgt_var = "DSTERM",
-    id_vars = oak_id_vars()
+ds <- assign_no_ct(
+  raw_dat = ds.prep,
+  raw_var = "TEMP.DSTERM",
+  tgt_var = "DSTERM",
+  id_vars = oak_id_vars()
   )
 
 # Map other variables
 ds <- ds %>% 
-  # Map date in ISO 8601 format
+  # DSSTDTC: map date in ISO 8601 format
   assign_datetime(
-    raw_dat = ds.temp,
+    raw_dat = ds.prep,
     raw_var = "IT.DSSTDAT",
     tgt_var = "DSSTDTC",
     raw_fmt = "m-d-y",
     id_vars = oak_id_vars()
   ) %>%
+  # DSDTC (datetime) from date + time
   assign_datetime(
-    raw_dat = ds.temp,
+    raw_dat = ds.prep,
     raw_var = c("DSDTCOL", "DSTMCOL"),
     tgt_var = "DSDTC",
     raw_fmt = c("m-d-y", "H:M"),
@@ -74,7 +59,7 @@ ds <- ds %>%
   ) %>%
   # Map the value of "TEMP.DSDECOD" in "DSDECOD"
   assign_ct(
-    raw_dat = ds.temp,
+    raw_dat = ds.prep,
     raw_var = "TEMP.DSDECOD",
     tgt_var = "DSDECOD",
     ct_spec = study.ct,
@@ -83,7 +68,7 @@ ds <- ds %>%
   ) %>%
   # Map the values if "TEMP.DSCAT" in "DSCAT"
   assign_ct(
-    raw_dat = ds.temp,
+    raw_dat = ds.prep,
     raw_var = "TEMP.DSCAT",
     tgt_var = "DSCAT",
     ct_spec = study.ct,
@@ -92,7 +77,7 @@ ds <- ds %>%
   ) %>%
   # Map the variable INSTANCE to VISIT
   assign_no_ct(
-    raw_dat = ds.temp,
+    raw_dat = ds.prep,
     raw_var = "INSTANCE",
     tgt_var = "VISIT",
     id_vars = oak_id_vars()
@@ -106,7 +91,7 @@ ds <- ds %>%
   left_join(visit.map, by = "VISIT")
 
 # Infer the DSSTDY variable from the DM raw data
-# Assumption: we use the date of the informed consent IC_DT as the
+# Assumption: we use the date of the data collection COL_DT as the
 # sponsor-defined RFSTDTC
 dm.raw <- pharmaverseraw::dm_raw 
 # Create oak IDs to enable merging with ds
