@@ -61,6 +61,8 @@ The following package versions were used:
 | sdtm.oak            | 0.2.0   |
 | pharmaverseraw      | 0.1.1   |
 | gt                  | 1.3.0   |
+| stringr             | 1.6.0   |
+| scales              | 1.4.0   |
 
 All scripts are designed to run end-to-end without manual intervention.
 
