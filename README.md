@@ -32,7 +32,7 @@ The repository structure follows the submission requirements specified in the as
 │   └── log_question_3_plots.txt
 ```
 
-Each question is contained within its own folder and includes:
+Solutions to each question are contained within their own folder and include:
 
 - Script(s)
 - Output dataset or visualization
