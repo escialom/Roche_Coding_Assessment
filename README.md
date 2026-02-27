@@ -1,5 +1,12 @@
 # Analytical Data Science Programmer Coding Assessment
 
+## Walkthrough Video (2-Minute Overview)
+
+**Full solution walkthrough video:**  
+https://www.youtube.com/watch?v=0AOnAnDpbzo
+
+---
+
 This repository contains my solutions to the Coding Assessment for my Analytical Data Science Programmer application.  
 The work covers SDTM creation, ADaM derivations, and regulatory-style TLG outputs using modern R and Pharmaverse packages.
 
