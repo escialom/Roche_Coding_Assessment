@@ -42,16 +42,25 @@ Each question is contained within its own folder and includes:
 
 # Environment
 
-- **R Version:** ≥ 4.2.0  
-- **Primary Packages Used:**
-  - sdtm.oak
-  - admiral
-  - gtsummary
-  - ggplot2
-  - dplyr
-  - gt
-  - pharmaverseadam
-  - pharmaversesdtm
+- **R Version:** 4.5.2 (2025-10-31)
+
+## Package Versions
+
+The following package versions were used:
+
+| Package             | Version |
+|---------------------|---------|
+| dplyr               | 1.2.0   |
+| gtsummary           | 2.5.0   |
+| pharmaverseadam     | 1.3.0   |
+| ggplot2             | 4.0.2   |
+| purrr               | 1.2.1   |
+| admiral             | 1.4.1   |
+| pharmaversesdtm     | 1.4.0   |
+| tidyr               | 1.3.2   |
+| sdtm.oak            | 0.2.0   |
+| pharmaverseraw      | 0.1.1   |
+| gt                  | 1.3.0   |
 
 All scripts are designed to run end-to-end without manual intervention.
 
