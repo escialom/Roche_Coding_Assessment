@@ -22,3 +22,6 @@ tbl <- adae.teae %>%
   ) %>%
   sort_hierarchical(sort = "descending")
 
+# Save table 
+as_gt(tbl) %>% 
+  gt::gtsave("question_3_tlg/ae_summary_table.html")
