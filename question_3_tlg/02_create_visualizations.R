@@ -2,6 +2,7 @@ library(ggplot2)
 library(pharmaverseadam)
 library(purrr)
 library(dplyr)
+library(scales)
 
 
 # Load ADaM datasets from {pharmaverseadam} 
@@ -61,7 +62,7 @@ plt2 <- ggplot(ae.stats, aes(x = percent, y = reorder(AEDECOD, percent))) +
   geom_errorbar(aes(xmin = lower, xmax = upper)) +
   geom_point() +
   # Get the percent on the x ticks
-  scale_x_continuous(labels = scales::label_percent(scale = 1)) +
+  scale_x_continuous(labels = label_percent(scale = 1)) +
   labs(
     title = "Top 10 Most Frequent Adverse Events",
     subtitle = paste0("n = ", N.subj, " subjects; 95% Clopper Pearson CIs"),
