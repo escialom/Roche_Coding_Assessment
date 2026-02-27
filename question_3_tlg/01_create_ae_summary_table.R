@@ -1,6 +1,7 @@
 library(gtsummary)
 library(pharmaverseadam)
 library(dplyr)
+library(gt)
 
 
 # Load ADaM datasets from {pharmaverseadam} 
