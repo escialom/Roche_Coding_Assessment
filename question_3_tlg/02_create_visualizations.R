@@ -53,3 +53,23 @@ ae.stats <- adae %>%
   arrange(desc(percent)) %>%
   slice_head(n = 10)
 
+# Get plot 2
+# We need to reorder the y axis to prevent ggplot from taking the order from 
+# the factor level
+plt2 <- ggplot(ae.stats, aes(x = percent, y = reorder(AEDECOD, percent))) +
+  geom_errorbarh(aes(xmin = lower, xmax = upper)) +
+  geom_point() +
+  # Get the percent on the x ticks
+  scale_x_continuous(labels = scales::label_percent(scale = 1)) +
+  labs(
+    title = "Top 10 Most Frequent Adverse Events",
+    subtitle = paste0("n = ", N.subj, " subjects; 95% Clopper Pearson CIs"),
+    x = "Percentage of Patients (%)",
+    y = NULL
+  )
+
+# Save plot 2
+ggsave("question_3_tlg/plot2.png", plot = plt2)
+
+
+
