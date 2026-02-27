@@ -1,1 +1,24 @@
 library(ggplot2)
+library(gtsummary)
+library(pharmaverseadam)
+
+
+# Load ADaM datasets from {pharmaverseadam} 
+adae <- pharmaverseadam::adae
+adsl <- pharmaverseadam::adsl
+
+# Get the records with treatment emergent adversive events
+adae.teae <- adae %>%
+  filter(TRTEMFL == "Y")
+
+# Get the summary table of TEAEs
+tbl <- adae.teae %>%
+  tbl_hierarchical(
+    variables = c(AESOC, AEDECOD),
+    by = ACTARM,
+    id = USUBJID,
+    denominator = adsl,
+    overall_row = TRUE,
+    label = "..ard_hierarchical_overall.." ~ "Treatment Emergent AEs"
+  )
+
