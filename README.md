@@ -57,7 +57,7 @@ The following package versions were used:
 | purrr               | 1.2.1   |
 | admiral             | 1.4.1   |
 | pharmaversesdtm     | 1.4.0   |
-| tidyr               | 1.3.2   |
+| metatools           | 0.2.0   |
 | sdtm.oak            | 0.2.0   |
 | pharmaverseraw      | 0.1.1   |
 | gt                  | 1.3.0   |
