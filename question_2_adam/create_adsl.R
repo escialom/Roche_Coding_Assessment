@@ -1,7 +1,7 @@
 library(pharmaversesdtm)
 library(admiral)
 library(dplyr)
-library(metatools)
+library(tidyr)
 
 
 # Load SDTM source domains from {pharmaversesdtm} and standardize missingness:
