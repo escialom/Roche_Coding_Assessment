@@ -1,6 +1,7 @@
 library(ggplot2)
 library(pharmaverseadam)
 library(purrr)
+library(dplyr)
 
 
 # Load ADaM datasets from {pharmaverseadam} 
@@ -57,7 +58,7 @@ ae.stats <- adae %>%
 # We need to reorder the y axis to prevent ggplot from taking the order from 
 # the factor level
 plt2 <- ggplot(ae.stats, aes(x = percent, y = reorder(AEDECOD, percent))) +
-  geom_errorbarh(aes(xmin = lower, xmax = upper)) +
+  geom_errorbar(aes(xmin = lower, xmax = upper)) +
   geom_point() +
   # Get the percent on the x ticks
   scale_x_continuous(labels = scales::label_percent(scale = 1)) +
