@@ -1,5 +1,6 @@
 library(gtsummary)
 library(pharmaverseadam)
+library(dplyr)
 
 
 # Load ADaM datasets from {pharmaverseadam} 
@@ -24,4 +25,4 @@ tbl <- adae.teae %>%
 
 # Save table 
 as_gt(tbl) %>% 
-  gt::gtsave("question_3_tlg/ae_summary_table.html")
+  gt::gtsave("ae_summary_table.html")
