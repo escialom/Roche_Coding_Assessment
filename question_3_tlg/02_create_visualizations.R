@@ -2,7 +2,6 @@ library(ggplot2)
 library(pharmaverseadam)
 library(purrr)
 library(dplyr)
-library(scales)
 
 
 # Load ADaM datasets from {pharmaverseadam} 
