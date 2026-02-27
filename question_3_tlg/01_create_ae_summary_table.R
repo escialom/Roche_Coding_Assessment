@@ -1,4 +1,3 @@
-library(ggplot2)
 library(gtsummary)
 library(pharmaverseadam)
 
@@ -11,7 +10,7 @@ adsl <- pharmaverseadam::adsl
 adae.teae <- adae %>%
   filter(TRTEMFL == "Y")
 
-# Get the summary table of TEAEs
+# Get the summary table of sorted TEAEs
 tbl <- adae.teae %>%
   tbl_hierarchical(
     variables = c(AESOC, AEDECOD),
@@ -20,5 +19,6 @@ tbl <- adae.teae %>%
     denominator = adsl,
     overall_row = TRUE,
     label = "..ard_hierarchical_overall.." ~ "Treatment Emergent AEs"
-  )
+  ) %>%
+  sort_hierarchical(sort = "descending")
 
